@@ -10,3 +10,6 @@ target_link_libraries ( altaircam-list PUBLIC touptek -lusb-1.0 )
 
 add_executable ( mallincam-list mallincam-list.c )
 target_link_libraries ( mallincam-list PUBLIC touptek -lusb-1.0 )
+
+add_executable ( starshootg-list starshootg-list.c )
+target_link_libraries ( starshootg-list PUBLIC touptek -lusb-1.0 )
