@@ -46,5 +46,6 @@
 // a const or something like that
 #define	TOUPCAM_MAX			OA_TOUPTEK_MAX
 #define	ALTAIRCAM_MAX		OA_TOUPTEK_MAX
+#define	MALLINCAM_MAX		OA_TOUPTEK_MAX
 
 #endif	/* OA_TOUPTEK_DEFINES_H */
