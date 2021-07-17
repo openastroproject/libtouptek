@@ -16,3 +16,6 @@ target_link_libraries ( starshootg-list PUBLIC touptek -lusb-1.0 )
 
 add_executable ( meadecam-list meadecam-list.c )
 target_link_libraries ( meadecam-list PUBLIC touptek -lusb-1.0 )
+
+add_executable ( nncam-list nncam-list.c )
+target_link_libraries ( nncam-list PUBLIC touptek -lusb-1.0 )
