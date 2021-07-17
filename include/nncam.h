@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- * defines.h -- Defined values for Touptek-style SDK
+ * nncam.h -- Touptek library header for Nncam cameras
  *
  * Copyright 2021 James Fidell (james@openastroproject.org)
  *
@@ -24,31 +24,45 @@
  *
  *****************************************************************************/
 
-#ifndef OA_TOUPTEK_DEFINES_H
-#define OA_TOUPTEK_DEFINES_H
+#ifndef OA_NNCAM_H
+#define OA_NNCAM_H
 
-#ifndef HRESULT
-#define	HRESULT		int
-#endif
+// Defines for:
+//
+// 1. function name
+// 2. library handle type
+// 3. config flag prefix
+// 4. option flag prefix
+// 5. pointer to library function
+// 6. defined value prefix
+// 7. function prototype for callback parameters
 
-#define	OA_TOUPTEK_MAX	16
-#define	OA_STRING_MAX		64
+// Function name
+#define TT_FUNC( suffix)			Nncam_ ## suffix
 
-#ifndef	SUCCEEDED
-#define	SUCCEEDED(r)		((( HRESULT )( r )) >= 0 )
-#endif
+// library handle type
+#define	TT_HANDLE							HNnCam
 
-#ifndef	FAILED
-#define	FAILED(r)				((( HRESULT )( r )) < 0 )
-#endif
+// config flag prefix
+#define	TT_FLAG( flag )				NNCAM_FLAG_ ## flag
 
-// Can't see a generic way to do this at the moment, short of using
-// a const or something like that
-#define	TOUPCAM_MAX			OA_TOUPTEK_MAX
-#define	ALTAIRCAM_MAX		OA_TOUPTEK_MAX
-#define	MALLINCAM_MAX		OA_TOUPTEK_MAX
-#define	STARSHOOTG_MAX	OA_TOUPTEK_MAX
-#define	MEADECAM_MAX		OA_TOUPTEK_MAX
-#define	NNCAM_MAX				OA_TOUPTEK_MAX
+// option flag prefix
+#define	TT_OPTION( option )		NNCAM_OPTION_ ## option
 
-#endif	/* OA_TOUPTEK_DEFINES_H */
+// define prefix
+#define	TT_DEFINE( var )			NNCAM_ ## var
+
+// variable type prefix
+#define TT_TYPE( type )				Nncam ## type
+
+// function type
+#define TT_FUNC_TYPE( prefix, suffix )	prefix ## NNCAM_ ## suffix
+
+
+#include <touptek/defines.h>
+#include <touptek/types.h>
+#include <touptek/flags.h>
+#include <touptek/options.h>
+#include <touptek/functions.h>
+
+#endif	/* OA_NNCAM_H */
