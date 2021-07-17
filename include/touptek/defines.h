@@ -44,11 +44,12 @@
 
 // Can't see a generic way to do this at the moment, short of using
 // a const or something like that
-#define	TOUPCAM_MAX			OA_TOUPTEK_MAX
-#define	ALTAIRCAM_MAX		OA_TOUPTEK_MAX
-#define	MALLINCAM_MAX		OA_TOUPTEK_MAX
-#define	STARSHOOTG_MAX	OA_TOUPTEK_MAX
-#define	MEADECAM_MAX		OA_TOUPTEK_MAX
-#define	NNCAM_MAX				OA_TOUPTEK_MAX
+#define	TOUPCAM_MAX				OA_TOUPTEK_MAX
+#define	ALTAIRCAM_MAX			OA_TOUPTEK_MAX
+#define	MALLINCAM_MAX			OA_TOUPTEK_MAX
+#define	STARSHOOTG_MAX		OA_TOUPTEK_MAX
+#define	MEADECAM_MAX			OA_TOUPTEK_MAX
+#define	NNCAM_MAX					OA_TOUPTEK_MAX
+#define	OMEGONPROCAM_MAX	OA_TOUPTEK_MAX
 
 #endif	/* OA_TOUPTEK_DEFINES_H */
