@@ -53,12 +53,7 @@ oaTouptek_EnumV2 (
   unsigned int										numFound = 0;
   int															nameToUse;
   unsigned short									busNum, addr;
-/*
-  unsigned int  		        index;
-  int					ret;
-  libusb_device_handle*			handle;
-  unsigned int				matched, colour;
-*/
+
 	/*
 	oaLogInfo ( OA_LOG_CAMERA, "%s ( %p, %ld, %d ): entered", __func__,
 			deviceList, featureFlags, flags );
@@ -135,26 +130,6 @@ oaTouptek_EnumV2 (
 				}
 			}
 		}
-
-/*
-    matched = colour = 0;
-      if ( TIS_VENDOR_ID == desc.idVendor &&
-          desc.idProduct == EUVCCameraList[j].productId ) {
-        if ( LIBUSB_SUCCESS != libusb_open ( device, &handle )) {
-          oaLogError ( OA_LOG_CAMERA,
-							"%s: libusb_open for EUVC camera failed", __func__ );
-          libusb_free_device_list ( devlist, 1 );
-          libusb_exit ( ctx );
-          return -OA_ERR_SYSTEM_ERROR;
-        }
-
-        libusb_close ( handle );
-
-				oaLogDebug ( OA_LOG_CAMERA, "%s: allocated @ %p for camera device",
-						__func__, dev );
-      }
-    }
-*/
   }
 
   libusb_free_device_list ( devlist, 1 );
