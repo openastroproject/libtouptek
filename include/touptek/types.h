@@ -57,7 +57,9 @@ typedef struct {
 	unsigned				height;
 } oaTouptekResolution;
 
+#ifdef TT_TYPE
 typedef oaTouptekResolution		TT_TYPE( Resolution );
+#endif
 
 typedef struct {
 	const char*					name;        // camera model name
@@ -72,13 +74,17 @@ typedef struct {
 	oaTouptekResolution	res[ OA_TOUPTEK_MAX ];
 } oaTouptekModelV2;
 
+#ifdef TT_TYPE
 typedef oaTouptekModelV2			TT_TYPE( ModelV2 );
+#endif
 
 typedef struct {
 	char								displayname[ OA_STRING_MAX ];
 	char								id [ OA_STRING_MAX ];
 } oaTouptekDeviceV2;
 
+#ifdef TT_TYPE
 typedef oaTouptekDeviceV2			TT_TYPE( DeviceV2 );
+#endif
 
 #endif	/* OA_TOUPTEK_TYPES_H */
