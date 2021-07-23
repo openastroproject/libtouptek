@@ -29,6 +29,7 @@
 #define INTERNALS_H
 
 #include <stdint.h>
+#include <libusb-1.0/libusb.h>
 
 #include <touptek/defines.h>
 
@@ -45,5 +46,8 @@
 #define	VID_ALT_MEADE					0x0549
 
 extern unsigned oaTouptek_EnumV2 ( uint8_t, oaTouptekDeviceV2* );
+
+extern unsigned enumerate ( uint8_t, oaTouptekDeviceV2*, unsigned short,
+		unsigned short, int, libusb_device_handle** );
 
 #endif	/* INTERNALS_H */
