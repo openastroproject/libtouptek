@@ -29,7 +29,8 @@
 #include <string.h>
 #include <libusb-1.0/libusb.h>
 
-#include <toupcam.h>
+#include <touptek/defines.h>
+#include <touptek/types.h>
 
 #include "cameras.h"
 #include "internals.h"
@@ -44,6 +45,15 @@ unsigned
 oaTouptek_EnumV2 (
 		uint8_t brand, oaTouptekDeviceV2 deviceList[ OA_TOUPTEK_MAX ])
 {
+	return enumerate ( brand, deviceList, 0, 0, -1, NULL );
+}
+
+
+unsigned
+enumerate ( uint8_t brand, oaTouptekDeviceV2 deviceList[ OA_TOUPTEK_MAX ],
+		unsigned short matchBus, unsigned short matchAddr, int index,
+		libusb_device_handle** phandle )
+{
   libusb_context*									ctx = 0;
   libusb_device**									devlist;
   libusb_device*									device;
@@ -51,6 +61,7 @@ oaTouptek_EnumV2 (
   unsigned int										numUSBDevices;
 	unsigned int										i, j, k, stop;
   unsigned int										numFound = 0;
+  unsigned int										returnHandle = 0;
   int															nameToUse;
   unsigned short									busNum, addr;
 
@@ -72,7 +83,8 @@ oaTouptek_EnumV2 (
     return 0;
   }
 
-  for ( i = 0; i < numUSBDevices && numFound < OA_TOUPTEK_MAX; i++ ) {
+  for ( i = 0; i < numUSBDevices && numFound < OA_TOUPTEK_MAX && !returnHandle;
+			i++ ) {
     device = devlist[i];
     if ( LIBUSB_SUCCESS != libusb_get_device_descriptor ( device, &desc )) {
       libusb_free_device_list ( devlist, 1 );
@@ -114,15 +126,27 @@ oaTouptek_EnumV2 (
 							}
 							if ( nameToUse >= 0 ) {
 								// At this point we've definitely got something
-								( void ) strncpy ( deviceList[ numFound ].displayname,
-										cameras[j].name[ nameToUse ], OA_STRING_MAX );
-								// Format here is "tp-<usb-bus-id>-<usb-device-id>-<vid>-<pid>"
-								// all numbers are in decimal
 								busNum = libusb_get_bus_number ( device );
 								addr = libusb_get_device_address ( device );
-								( void ) snprintf ( deviceList[ numFound ].id, OA_STRING_MAX,
-										"tp-%hu-%hu-%hu-%hu", busNum, addr, desc.idVendor,
-										desc.idProduct );
+								if ( deviceList ) {
+									( void ) strncpy ( deviceList[ numFound ].displayname,
+											cameras[j].name[ nameToUse ], OA_STRING_MAX );
+									// Format for id "tp-<usb-bus-id>-<usb-device-id>-<vid>-<pid>"
+									// all numbers are in decimal
+									( void ) snprintf ( deviceList[ numFound ].id, OA_STRING_MAX,
+											"tp-%hu-%hu-%hu-%hu", busNum, addr, desc.idVendor,
+											desc.idProduct );
+								}
+								if ( matchBus && matchAddr ) {
+									if ( busNum == matchBus && addr == matchAddr ) {
+										returnHandle = 1;
+									}
+								}
+								if ( index >= 0 && index == numFound ) {
+									returnHandle = 1;
+								}
+								if ( returnHandle ) {
+								}
 								numFound++;
 							}
 						}
@@ -133,7 +157,9 @@ oaTouptek_EnumV2 (
   }
 
   libusb_free_device_list ( devlist, 1 );
-  libusb_exit ( ctx );
+	if ( !returnHandle ) {
+		libusb_exit ( ctx );
+	}
 
 	/*
 	oaLogInfo ( OA_LOG_CAMERA, "%s: exiting.  Found %d cameras", __func__,
