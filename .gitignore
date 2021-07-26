@@ -11,3 +11,6 @@ CTestTestfile.cmake
 build
 data
 todo
+
+# Editor temp files
+.*.swp
