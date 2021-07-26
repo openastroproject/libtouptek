@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- * internals.h -- Internal library header
+ * getSettings.h -- Header for camera settings read functions
  *
  * Copyright 2021
  *   James Fidell (james@openastroproject.org)
@@ -25,36 +25,12 @@
  *
  *****************************************************************************/
 
-#ifndef INTERNALS_H
-#define INTERNALS_H
-
-#include <stdint.h>
-#include <libusb-1.0/libusb.h>
-
-#include <touptek/defines.h>
-#include <touptek/types.h>
+#ifndef GET_SETTINGS_H
+#define GET_SETTINGS_H
 
 #include "cameras.h"
+#include "internals.h"
 
-#define	OA_BRAND_TOUPCAM			0
-#define	OA_BRAND_NNCAM				1
-#define	OA_BRAND_ALTAIRCAM		2
-#define	OA_BRAND_MALLINCAM		3
-#define	OA_BRAND_MEADECAM			4
-#define	OA_BRAND_OMEGONPROCAM	5
-#define	OA_BRAND_STARSHOOTG		6
+extern HRESULT	getBlackBalance ( const cameraCtx*, unsigned short bal[3] );
 
-#define	VID_TOUPTEK						0x0547
-#define	VID_OLD_ALTAIR				0x16d0
-#define	VID_ALT_MEADE					0x0549
-
-typedef struct cameraCtx {
-	cameraSettings*		settings;
-} cameraCtx;
-
-extern unsigned oaTouptek_EnumV2 ( uint8_t, oaTouptekDeviceV2* );
-
-extern unsigned enumerate ( uint8_t, oaTouptekDeviceV2*, unsigned short,
-		unsigned short, int, libusb_device_handle** );
-
-#endif	/* INTERNALS_H */
+#endif	/* GET_SETTINGS_H */
