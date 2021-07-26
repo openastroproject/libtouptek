@@ -33,6 +33,8 @@
 
 #include <touptek/defines.h>
 
+#include "cameras.h"
+
 #define	OA_BRAND_TOUPCAM			0
 #define	OA_BRAND_NNCAM				1
 #define	OA_BRAND_ALTAIRCAM		2
@@ -44,6 +46,10 @@
 #define	VID_TOUPTEK						0x0547
 #define	VID_OLD_ALTAIR				0x16d0
 #define	VID_ALT_MEADE					0x0549
+
+typedef struct cameraCtx {
+	cameraSettings*		settings;
+} cameraCtx;
 
 extern unsigned oaTouptek_EnumV2 ( uint8_t, oaTouptekDeviceV2* );
 

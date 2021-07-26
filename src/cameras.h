@@ -175,6 +175,12 @@ typedef struct cameraFuncs {
 	int												( *writeUART )();
 } cameraFuncs;
 
+typedef struct cameraSettings {
+	unsigned short		blackBalanceRed;
+	unsigned short		blackBalanceGreen;
+	unsigned short		blackBalanceBlue;
+} cameraSettings;
+
 extern cameraData		cameras[ MAX_CAMERAS ];
 extern cameraFuncs	functionGroups[ MAX_FUNCTION_GROUPS ];
 
