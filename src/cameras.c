@@ -45,6 +45,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 0,
 	},
 	{
 		.productIds			= { 0x0a51, 0x0, 0x0 },
@@ -60,6 +61,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 1,
 	},
 	{
 		.productIds			= { 0x0b2b, 0x0, 0x0 },
@@ -68,13 +70,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x80682209,
 		.name						= {
 			NULL,
+			NULL,
 			"GPCAM AR0130C",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 2,
 	},
 	{
 		.productIds			= { 0x0b2c, 0x0, 0x0 },
@@ -83,13 +86,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81492241,
 		.name						= {
 			NULL,
+			NULL,
 			"AA GFIMX185C",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 3,
 	},
 	{
 		.productIds			= { 0x0b2d, 0x0, 0x0 },
@@ -98,13 +102,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81492241,
 		.name						= {
 			NULL,
+			NULL,
 			"AA GFIMX185C (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 4,
 	},
 	{
 		.productIds			= { 0x0b4d, 0x0, 0x0 },
@@ -113,13 +118,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x85492269,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR H224C",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 5,
 	},
 	{
 		.productIds			= { 0x0b4e, 0x0, 0x0 },
@@ -128,13 +134,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x85492269,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR H224C (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 6,
 	},
 	{
 		.productIds			= { 0x0b4f, 0x0, 0x0 },
@@ -143,13 +150,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x80682209,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR GP130C",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 7,
 	},
 	{
 		.productIds			= { 0x0b8b, 0x0, 0x0 },
@@ -158,13 +166,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x80682219,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR GP130M",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 5,
 	},
 	{
 		.productIds			= { 0x0b8c, 0x0, 0x0 },
@@ -173,13 +182,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x84482229,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR GP224C",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 6,
 	},
 	{
 		.productIds			= { 0x0b8d, 0x0, 0x0 },
@@ -188,13 +198,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x1081492259,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR H174M",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 7,
 	},
 	{
 		.productIds			= { 0x0b8e, 0x0, 0x0 },
@@ -203,13 +214,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x1081492259,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR H174M (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 8,
 	},
 	{
 		.productIds			= { 0x0b8f, 0x0, 0x0 },
@@ -218,13 +230,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x80082012,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR H618M",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 9,
 	},
 	{
 		.productIds			= { 0x0c10, 0x0, 0x0 },
@@ -233,13 +246,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x80082002,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR H618C",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 10,
 	},
 	{
 		.productIds			= { 0x0c11, 0x0, 0x0 },
@@ -248,13 +262,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81494259,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR H178M",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 11,
 	},
 	{
 		.productIds			= { 0x0c12, 0x0, 0x0 },
@@ -263,13 +278,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81494259,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR H178M (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 12,
 	},
 	{
 		.productIds			= { 0x0c13, 0x0, 0x0 },
@@ -278,13 +294,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81494249,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR H178C",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 13,
 	},
 	{
 		.productIds			= { 0x0c14, 0x0, 0x0 },
@@ -293,13 +310,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81494249,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR H178C (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 14,
 	},
 	{
 		.productIds			= { 0x0c15, 0x0, 0x0 },
@@ -308,13 +326,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81492241,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 1600C",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 15,
 	},
 	{
 		.productIds			= { 0x0c16, 0x0, 0x0 },
@@ -323,13 +342,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81492241,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 1600C (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 16,
 	},
 	{
 		.productIds			= { 0x0c70, 0x0, 0x0 },
@@ -338,13 +358,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81492251,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 1600M",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 13,
 	},
 	{
 		.productIds			= { 0x0c71, 0x0, 0x0 },
@@ -353,13 +374,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81492251,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 1600M (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 14,
 	},
 	{
 		.productIds			= { 0x0c76, 0x0, 0x0 },
@@ -368,13 +390,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x85482209,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR GP290C",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 17,
 	},
 	{
 		.productIds			= { 0x0c77, 0x0, 0x0 },
@@ -383,13 +406,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81492241,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR H183C",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 18,
 	},
 	{
 		.productIds			= { 0x0c78, 0x0, 0x0 },
@@ -398,13 +422,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81492241,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR H183C (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 19,
 	},
 	{
 		.productIds			= { 0x0c79, 0x0, 0x0 },
@@ -413,13 +438,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x85482219,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR GP290M",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 20,
 	},
 	{
 		.productIds			= { 0x0c7a, 0x0, 0x0 },
@@ -428,13 +454,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81484249,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR 178C3",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 21,
 	},
 	{
 		.productIds			= { 0x0c7b, 0x0, 0x0 },
@@ -443,13 +470,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81484249,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR 178C3 (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 22,
 	},
 	{
 		.productIds			= { 0x0c7c, 0x0, 0x0 },
@@ -458,13 +486,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81484259,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR 178M3",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 23,
 	},
 	{
 		.productIds			= { 0x0c7d, 0x0, 0x0 },
@@ -473,13 +502,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81484259,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR 178M3 (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 24,
 	},
 	{
 		.productIds			= { 0x0c7e, 0x0, 0x0 },
@@ -488,13 +518,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x85482649,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR 290C3",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 25,
 	},
 	{
 		.productIds			= { 0x0c7f, 0x0, 0x0 },
@@ -503,13 +534,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x85482649,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR 290C3 (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 26,
 	},
 	{
 		.productIds			= { 0x0c80, 0x0, 0x0 },
@@ -518,13 +550,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x85482659,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR 290M3",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 27,
 	},
 	{
 		.productIds			= { 0x0c81, 0x0, 0x0 },
@@ -533,13 +566,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x85482659,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR 290M3 (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 28,
 	},
 	{
 		.productIds			= { 0x0c82, 0x0, 0x0 },
@@ -548,13 +582,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x85482669,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR 224C3",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 29,
 	},
 	{
 		.productIds			= { 0x0c83, 0x0, 0x0 },
@@ -563,13 +598,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x85482669,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR 224C3 (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 30,
 	},
 	{
 		.productIds			= { 0x0c84, 0x0, 0x0 },
@@ -578,13 +614,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81692249,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 1600C",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 31,
 	},
 	{
 		.productIds			= { 0x0c85, 0x0, 0x0 },
@@ -593,13 +630,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81692249,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 1600C (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 32,
 	},
 	{
 		.productIds			= { 0x0c86, 0x0, 0x0 },
@@ -608,13 +646,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81692259,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 1600M",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 33,
 	},
 	{
 		.productIds			= { 0x0c87, 0x0, 0x0 },
@@ -623,13 +662,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81692259,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 1600M (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 34,
 	},
 	{
 		.productIds			= { 0x0d30, 0x0, 0x0 },
@@ -638,13 +678,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x1081482659,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR 287M3",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 35,
 	},
 	{
 		.productIds			= { 0x0d31, 0x0, 0x0 },
@@ -653,13 +694,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x1081482659,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR 287M3 (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 36,
 	},
 	{
 		.productIds			= { 0x0d32, 0x0, 0x0 },
@@ -668,13 +710,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x85482649,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR 385C3",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 37,
 	},
 	{
 		.productIds			= { 0x0d33, 0x0, 0x0 },
@@ -683,13 +726,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x85482649,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR 385C3 (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 38,
 	},
 	{
 		.productIds			= { 0x0d34, 0x0, 0x0 },
@@ -698,13 +742,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81492649,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR H183C",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 39,
 	},
 	{
 		.productIds			= { 0x0d35, 0x0, 0x0 },
@@ -713,13 +758,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81492649,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR H183C (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 40,
 	},
 	{
 		.productIds			= { 0x0d36, 0x0, 0x0 },
@@ -728,13 +774,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x1081492259,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR H174M",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 41,
 	},
 	{
 		.productIds			= { 0x0d37, 0x0, 0x0 },
@@ -743,13 +790,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x1081492259,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR H174M (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 42,
 	},
 	{
 		.productIds			= { 0x0d38, 0x0, 0x0 },
@@ -758,13 +806,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81492659,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR H183M",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 43,
 	},
 	{
 		.productIds			= { 0x0d39, 0x0, 0x0 },
@@ -773,13 +822,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81492659,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR H183M (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 44,
 	},
 	{
 		.productIds			= { 0x0d3a, 0x0, 0x0 },
@@ -788,13 +838,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81492249,
 		.name						= {
 			NULL,
+			NULL,
 			"AA GFIMX185C",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 2,
 	},
 	{
 		.productIds			= { 0x0d3b, 0x0, 0x0 },
@@ -803,13 +854,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81492249,
 		.name						= {
 			NULL,
+			NULL,
 			"AA GFIMX185C (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 3,
 	},
 	{
 		.productIds			= { 0x0d80, 0x0, 0x0 },
@@ -818,13 +870,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81484649,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR 178C3",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 45,
 	},
 	{
 		.productIds			= { 0x0d81, 0x0, 0x0 },
@@ -833,13 +886,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81484649,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR 178C3 (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 46,
 	},
 	{
 		.productIds			= { 0x0d82, 0x0, 0x0 },
@@ -848,13 +902,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81484659,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR 178M3",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 47,
 	},
 	{
 		.productIds			= { 0x0d83, 0x0, 0x0 },
@@ -863,13 +918,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x81484659,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR 178M3 (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 48,
 	},
 	{
 		.productIds			= { 0x0d84, 0x0, 0x0 },
@@ -878,13 +934,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x87694649,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 294CPRO",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 49,
 	},
 	{
 		.productIds			= { 0x0d85, 0x0, 0x0 },
@@ -893,13 +950,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x87694649,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 294CPRO (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 50,
 	},
 	{
 		.productIds			= { 0x0d86, 0x0, 0x0 },
@@ -908,13 +966,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x836b24c9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 183CPROTEC",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 51,
 	},
 	{
 		.productIds			= { 0x0d87, 0x0, 0x0 },
@@ -923,13 +982,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x836b24c9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 183CPROTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 52,
 	},
 	{
 		.productIds			= { 0x0d88, 0x0, 0x0 },
@@ -938,13 +998,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x83492649,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 183CPRO",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 53,
 	},
 	{
 		.productIds			= { 0x0d89, 0x0, 0x0 },
@@ -953,13 +1014,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x83492649,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 183CPRO (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 54,
 	},
 	{
 		.productIds			= { 0x0d8a, 0x0, 0x0 },
@@ -968,13 +1030,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x83492659,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 183MPRO",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 55,
 	},
 	{
 		.productIds			= { 0x0d8b, 0x0, 0x0 },
@@ -983,13 +1046,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x83492659,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 183MPRO (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 56,
 	},
 	{
 		.productIds			= { 0x0d8c, 0x0, 0x0 },
@@ -998,13 +1062,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x836b24d9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 183MPROTEC",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 57,
 	},
 	{
 		.productIds			= { 0x0d8d, 0x0, 0x0 },
@@ -1013,13 +1078,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x836b24d9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 183MPROTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 58,
 	},
 	{
 		.productIds			= { 0x0d8e, 0x0, 0x0 },
@@ -1028,13 +1094,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x836b24d9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 1600MPROTEC",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 59,
 	},
 	{
 		.productIds			= { 0x0d8f, 0x0, 0x0 },
@@ -1043,13 +1110,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x836b24d9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 1600MPROTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 60,
 	},
 	{
 		.productIds			= { 0x0d92, 0x0, 0x0 },
@@ -1058,13 +1126,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x876b44c9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 294CPROTEC",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 40,
 	},
 	{
 		.productIds			= { 0x0d93, 0x0, 0x0 },
@@ -1073,13 +1142,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x876b44c9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 294CPROTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 41,
 	},
 	{
 		.productIds			= { 0x0df9, 0x0, 0x0 },
@@ -1088,13 +1158,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x876b44c9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 294CPROTEC",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 61,
 	},
 	{
 		.productIds			= { 0x0dfa, 0x0, 0x0 },
@@ -1103,13 +1174,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x876b44c9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 294CPROTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 62,
 	},
 	{
 		.productIds			= { 0x0dfb, 0x0, 0x0 },
@@ -1118,13 +1190,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x87694649,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 294CPRO",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 63,
 	},
 	{
 		.productIds			= { 0x0dfc, 0x0, 0x0 },
@@ -1133,13 +1206,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x87694649,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 294CPRO (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 64,
 	},
 	{
 		.productIds			= { 0x0dfd, 0x0, 0x0 },
@@ -1148,13 +1222,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x10876b24c9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 432CPROTEC",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 65,
 	},
 	{
 		.productIds			= { 0x0dfe, 0x0, 0x0 },
@@ -1163,13 +1238,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x10876b24c9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 432CPROTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 66,
 	},
 	{
 		.productIds			= { 0x0dff, 0x0, 0x0 },
@@ -1178,13 +1254,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x10876b24d9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 432MPROTEC",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 67,
 	},
 	{
 		.productIds			= { 0x0e00, 0x0, 0x0 },
@@ -1193,13 +1270,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x10876b24d9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 432MPROTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 10,
 	},
 	{
 		.productIds			= { 0x0e01, 0x0, 0x0 },
@@ -1208,13 +1286,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x10876b24c9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 428CPROTEC",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 11,
 	},
 	{
 		.productIds			= { 0x0e02, 0x0, 0x0 },
@@ -1223,13 +1302,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x10876b24c9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 428CPROTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 12,
 	},
 	{
 		.productIds			= { 0x0e03, 0x0, 0x0 },
@@ -1238,13 +1318,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x10876b24d9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 428MPROTEC",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 13,
 	},
 	{
 		.productIds			= { 0x0e04, 0x0, 0x0 },
@@ -1253,13 +1334,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x10876b24d9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 428MPROTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 14,
 	},
 	{
 		.productIds			= { 0x0e05, 0x0, 0x0 },
@@ -1268,13 +1350,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x84482209,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR GP327C",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 15,
 	},
 	{
 		.productIds			= { 0x0e06, 0x0, 0x0 },
@@ -1283,13 +1366,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x876b24c9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 269CPROTEC",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 16,
 	},
 	{
 		.productIds			= { 0x0e07, 0x0, 0x0 },
@@ -1298,13 +1382,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x876b24c9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 269CPROTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 68,
 	},
 	{
 		.productIds			= { 0x0f09, 0x0, 0x0 },
@@ -1313,13 +1398,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x180876b84c9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 26CTEC",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 43,
 	},
 	{
 		.productIds			= { 0x0f0a, 0x0, 0x0 },
@@ -1328,13 +1414,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x180876b84c9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 26CTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 69,
 	},
 	{
 		.productIds			= { 0x0f0f, 0x0, 0x0 },
@@ -1343,13 +1430,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x87692649,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 269CPRO",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 6,
 	},
 	{
 		.productIds			= { 0x0f10, 0x0, 0x0 },
@@ -1358,13 +1446,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x87692649,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 269CPRO (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 70,
 	},
 	{
 		.productIds			= { 0x0f65, 0x0, 0x0 },
@@ -1373,13 +1462,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x180876b44c9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 533CPROTEC",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 42,
 	},
 	{
 		.productIds			= { 0x0f66, 0x0, 0x0 },
@@ -1388,13 +1478,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x180876b44c9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 533CPROTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 43,
 	},
 	{
 		.productIds			= { 0x0f67, 0x0, 0x0 },
@@ -1403,13 +1494,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x180876b84d9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 61MFX",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 44,
 	},
 	{
 		.productIds			= { 0x0f68, 0x0, 0x0 },
@@ -1418,13 +1510,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x180876b84d9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 61MFX (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 71,
 	},
 	{
 		.productIds			= { 0x0f69, 0x0, 0x0 },
@@ -1433,13 +1526,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x85482649,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR 462C3",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 72,
 	},
 	{
 		.productIds			= { 0x0f6a, 0x0, 0x0 },
@@ -1448,13 +1542,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x85482649,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR 462C3 (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 4,
 	},
 	{
 		.productIds			= { 0x0f6b, 0x0, 0x0 },
@@ -1463,13 +1558,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x180876b84c9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 61CFX",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 5,
 	},
 	{
 		.productIds			= { 0x0f6c, 0x0, 0x0 },
@@ -1478,13 +1574,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x180876b84c9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 61CFX (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 6,
 	},
 	{
 		.productIds			= { 0x0f6d, 0x0, 0x0 },
@@ -1493,13 +1590,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x876b44d9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 115MTEC",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 7,
 	},
 	{
 		.productIds			= { 0x0f6e, 0x0, 0x0 },
@@ -1508,13 +1606,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x876b44d9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 115MTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 8,
 	},
 	{
 		.productIds			= { 0x0f6f, 0x0, 0x0 },
@@ -1523,13 +1622,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x84482229,
 		.name						= {
 			NULL,
+			NULL,
 			"GPCAM 225C",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 9,
 	},
 	{
 		.productIds			= { 0x0f70, 0x0, 0x0 },
@@ -1538,13 +1638,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x180876b44c9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 24CFX",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 45,
 	},
 	{
 		.productIds			= { 0x0f71, 0x0, 0x0 },
@@ -1553,13 +1654,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x180876b44c9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 24CFX (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 46,
 	},
 	{
 		.productIds			= { 0x0f72, 0x0, 0x0 },
@@ -1568,13 +1670,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x180876b84d9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 26MTEC",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 47,
 	},
 	{
 		.productIds			= { 0x0f73, 0x0, 0x0 },
@@ -1583,13 +1686,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x180876b84d9,
 		.name						= {
 			NULL,
+			NULL,
 			"AA 26MTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 48,
 	},
 	{
 		.productIds			= { 0x0f74, 0x0, 0x0 },
@@ -1598,13 +1702,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x1081482649,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR 287C3",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 49,
 	},
 	{
 		.productIds			= { 0x0f75, 0x0, 0x0 },
@@ -1613,13 +1718,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x1081482649,
 		.name						= {
 			NULL,
+			NULL,
 			"ALTAIR 287C3 (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 50,
 	},
 	{
 		.productIds			= { 0x1002, 0x0, 0x0 },
@@ -1635,6 +1741,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 73,
 	},
 	{
 		.productIds			= { 0x1003, 0x0, 0x0 },
@@ -1650,6 +1757,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"GUIDE1200C",
 			NULL,
 		},
+	.functionGroup		= 74,
 	},
 	{
 		.productIds			= { 0x1004, 0x0, 0x0 },
@@ -1665,6 +1773,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"GUIDE1200M",
 			NULL,
 		},
+	.functionGroup		= 75,
 	},
 	{
 		.productIds			= { 0x1005, 0x0, 0x0 },
@@ -1674,12 +1783,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			"GPCMOS01200KPC",
 			NULL,
+			NULL,
 			"SkyRaider AG1.2C",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 76,
 	},
 	{
 		.productIds			= { 0x1007, 0x0, 0x0 },
@@ -1695,6 +1805,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 77,
 	},
 	{
 		.productIds			= { 0x1008, 0x0, 0x0 },
@@ -1710,6 +1821,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 78,
 	},
 	{
 		.productIds			= { 0x1009, 0x0, 0x0 },
@@ -1725,6 +1837,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 79,
 	},
 	{
 		.productIds			= { 0x100a, 0x0, 0x0 },
@@ -1740,6 +1853,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 80,
 	},
 	{
 		.productIds			= { 0x100b, 0x0, 0x0 },
@@ -1755,6 +1869,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 81,
 	},
 	{
 		.productIds			= { 0x100c, 0x0, 0x0 },
@@ -1770,6 +1885,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 82,
 	},
 	{
 		.productIds			= { 0x100d, 0x0, 0x0 },
@@ -1785,6 +1901,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 83,
 	},
 	{
 		.productIds			= { 0x100e, 0x0, 0x0 },
@@ -1800,6 +1917,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 84,
 	},
 	{
 		.productIds			= { 0x100f, 0x0, 0x0 },
@@ -1815,6 +1933,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 85,
 	},
 	{
 		.productIds			= { 0x1010, 0x0, 0x0 },
@@ -1830,6 +1949,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 86,
 	},
 	{
 		.productIds			= { 0x1012, 0x0, 0x0 },
@@ -1845,6 +1965,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 87,
 	},
 	{
 		.productIds			= { 0x1015, 0x0, 0x0 },
@@ -1860,6 +1981,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 88,
 	},
 	{
 		.productIds			= { 0x1016, 0x0, 0x0 },
@@ -1875,6 +1997,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 89,
 	},
 	{
 		.productIds			= { 0x101a, 0x0, 0x0 },
@@ -1890,6 +2013,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 90,
 	},
 	{
 		.productIds			= { 0x101b, 0x0, 0x0 },
@@ -1905,6 +2029,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 91,
 	},
 	{
 		.productIds			= { 0x101c, 0x0, 0x0 },
@@ -1920,6 +2045,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 92,
 	},
 	{
 		.productIds			= { 0x101d, 0x0, 0x0 },
@@ -1935,6 +2061,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 93,
 	},
 	{
 		.productIds			= { 0x1021, 0x0, 0x0 },
@@ -1950,6 +2077,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 73,
 	},
 	{
 		.productIds			= { 0x1022, 0x0, 0x0 },
@@ -1965,6 +2093,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 94,
 	},
 	{
 		.productIds			= { 0x1026, 0x0, 0x0 },
@@ -1980,6 +2109,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 77,
 	},
 	{
 		.productIds			= { 0x1029, 0x0, 0x0 },
@@ -1995,6 +2125,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 95,
 	},
 	{
 		.productIds			= { 0x102a, 0x0, 0x0 },
@@ -2010,6 +2141,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 81,
 	},
 	{
 		.productIds			= { 0x102e, 0x0, 0x0 },
@@ -2025,6 +2157,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 85,
 	},
 	{
 		.productIds			= { 0x102f, 0x0, 0x0 },
@@ -2040,6 +2173,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 96,
 	},
 	{
 		.productIds			= { 0x1030, 0x0, 0x0 },
@@ -2055,6 +2189,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 97,
 	},
 	{
 		.productIds			= { 0x1031, 0x0, 0x0 },
@@ -2070,6 +2205,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 87,
 	},
 	{
 		.productIds			= { 0x1035, 0x0, 0x0 },
@@ -2085,6 +2221,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 89,
 	},
 	{
 		.productIds			= { 0x1036, 0x0, 0x0 },
@@ -2100,6 +2237,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 98,
 	},
 	{
 		.productIds			= { 0x1039, 0x0, 0x0 },
@@ -2115,6 +2253,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 99,
 	},
 	{
 		.productIds			= { 0x103a, 0x0, 0x0 },
@@ -2130,6 +2269,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 91,
 	},
 	{
 		.productIds			= { 0x104d, 0x0, 0x0 },
@@ -2145,6 +2285,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 85,
 	},
 	{
 		.productIds			= { 0x104e, 0x0, 0x0 },
@@ -2160,6 +2301,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 96,
 	},
 	{
 		.productIds			= { 0x1063, 0x0, 0x0 },
@@ -2175,6 +2317,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 100,
 	},
 	{
 		.productIds			= { 0x1064, 0x0, 0x0 },
@@ -2190,6 +2333,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 77,
 	},
 	{
 		.productIds			= { 0x1067, 0x0, 0x0 },
@@ -2205,6 +2349,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 95,
 	},
 	{
 		.productIds			= { 0x1068, 0x0, 0x0 },
@@ -2220,6 +2365,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 101,
 	},
 	{
 		.productIds			= { 0x106b, 0x0, 0x0 },
@@ -2235,6 +2381,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veTEC 16000C",
 			"StarShoot G16Color",
 		},
+	.functionGroup		= 102,
 	},
 	{
 		.productIds			= { 0x106d, 0x0, 0x0 },
@@ -2250,6 +2397,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veTEC 16000M",
 			"StarShoot G16Mono",
 		},
+	.functionGroup		= 103,
 	},
 	{
 		.productIds			= { 0x1070, 0x0, 0x0 },
@@ -2257,14 +2405,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x10814b26c9,
 		.name						= {
+			NULL,
 			"ATR3CMOS02300KPB",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 104,
 	},
 	{
 		.productIds			= { 0x1071, 0x0, 0x0 },
@@ -2272,14 +2421,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x10814b26d9,
 		.name						= {
+			NULL,
 			"ATR3CMOS02300KMB",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 105,
 	},
 	{
 		.productIds			= { 0x1072, 0x0, 0x0 },
@@ -2287,14 +2437,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x814b44c9,
 		.name						= {
+			NULL,
 			"ATR3CMOS06300KPA",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 106,
 	},
 	{
 		.productIds			= { 0x1075, 0x0, 0x0 },
@@ -2310,6 +2461,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veTEC 16000C (USB2)",
 			"StarShoot G16Color (USB2)",
 		},
+	.functionGroup		= 107,
 	},
 	{
 		.productIds			= { 0x1076, 0x0, 0x0 },
@@ -2325,6 +2477,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veTEC 16000M (USB2)",
 			"StarShoot G16Mono (USB2)",
 		},
+	.functionGroup		= 108,
 	},
 	{
 		.productIds			= { 0x1079, 0x0, 0x0 },
@@ -2332,14 +2485,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x10814b26c9,
 		.name						= {
+			NULL,
 			"ATR3CMOS02300KPB (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 109,
 	},
 	{
 		.productIds			= { 0x107a, 0x0, 0x0 },
@@ -2347,14 +2501,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x10814b26d9,
 		.name						= {
+			NULL,
 			"ATR3CMOS02300KMB (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 110,
 	},
 	{
 		.productIds			= { 0x107b, 0x0, 0x0 },
@@ -2362,14 +2517,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x814b44c9,
 		.name						= {
+			NULL,
 			"ATR3CMOS06300KPA (USB2)",
 			NULL,
 			NULL,
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 111,
 	},
 	{
 		.productIds			= { 0x107c, 0x0, 0x0 },
@@ -2385,6 +2541,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 112,
 	},
 	{
 		.productIds			= { 0x107d, 0x0, 0x0 },
@@ -2400,6 +2557,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 113,
 	},
 	{
 		.productIds			= { 0x107e, 0x0, 0x0 },
@@ -2415,6 +2573,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 114,
 	},
 	{
 		.productIds			= { 0x107f, 0x0, 0x0 },
@@ -2430,6 +2589,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 115,
 	},
 	{
 		.productIds			= { 0x1082, 0x0, 0x0 },
@@ -2445,6 +2605,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 100,
 	},
 	{
 		.productIds			= { 0x1083, 0x0, 0x0 },
@@ -2460,6 +2621,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 77,
 	},
 	{
 		.productIds			= { 0x1085, 0x0, 0x0 },
@@ -2475,6 +2637,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 79,
 	},
 	{
 		.productIds			= { 0x1089, 0x0, 0x0 },
@@ -2490,6 +2653,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 116,
 	},
 	{
 		.productIds			= { 0x108c, 0x0, 0x0 },
@@ -2505,6 +2669,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 96,
 	},
 	{
 		.productIds			= { 0x1090, 0x0, 0x0 },
@@ -2520,6 +2685,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 117,
 	},
 	{
 		.productIds			= { 0x1096, 0x0, 0x0 },
@@ -2535,6 +2701,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 99,
 	},
 	{
 		.productIds			= { 0x1097, 0x0, 0x0 },
@@ -2550,6 +2717,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 118,
 	},
 	{
 		.productIds			= { 0x1099, 0x0, 0x0 },
@@ -2565,6 +2733,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 119,
 	},
 	{
 		.productIds			= { 0x109d, 0x0, 0x0 },
@@ -2580,6 +2749,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 114,
 	},
 	{
 		.productIds			= { 0x10a0, 0x0, 0x0 },
@@ -2595,6 +2765,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 120,
 	},
 	{
 		.productIds			= { 0x10a4, 0x0, 0x0 },
@@ -2610,6 +2781,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 121,
 	},
 	{
 		.productIds			= { 0x10a8, 0x0, 0x0 },
@@ -2625,6 +2797,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 122,
 	},
 	{
 		.productIds			= { 0x10a9, 0x0, 0x0 },
@@ -2640,6 +2813,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 123,
 	},
 	{
 		.productIds			= { 0x10aa, 0x0, 0x0 },
@@ -2655,6 +2829,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 124,
 	},
 	{
 		.productIds			= { 0x10ab, 0x0, 0x0 },
@@ -2670,6 +2845,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 125,
 	},
 	{
 		.productIds			= { 0x10c1, 0x0, 0x0 },
@@ -2685,6 +2861,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 126,
 	},
 	{
 		.productIds			= { 0x10c7, 0x0, 0x0 },
@@ -2700,6 +2877,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 122,
 	},
 	{
 		.productIds			= { 0x10c8, 0x0, 0x0 },
@@ -2715,6 +2893,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 123,
 	},
 	{
 		.productIds			= { 0x10ca, 0x0, 0x0 },
@@ -2730,6 +2909,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 125,
 	},
 	{
 		.productIds			= { 0x10ce, 0x0, 0x0 },
@@ -2745,6 +2925,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 127,
 	},
 	{
 		.productIds			= { 0x10d4, 0x0, 0x0 },
@@ -2760,6 +2941,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 128,
 	},
 	{
 		.productIds			= { 0x10d5, 0x0, 0x0 },
@@ -2775,6 +2957,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 129,
 	},
 	{
 		.productIds			= { 0x10d7, 0x0, 0x0 },
@@ -2790,6 +2973,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 130,
 	},
 	{
 		.productIds			= { 0x10f6, 0x0, 0x0 },
@@ -2805,6 +2989,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 130,
 	},
 	{
 		.productIds			= { 0x10f7, 0x0, 0x0 },
@@ -2820,6 +3005,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 131,
 	},
 	{
 		.productIds			= { 0x10f8, 0x0, 0x0 },
@@ -2835,6 +3021,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 132,
 	},
 	{
 		.productIds			= { 0x10f9, 0x0, 0x0 },
@@ -2850,6 +3037,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 133,
 	},
 	{
 		.productIds			= { 0x10fe, 0x0, 0x0 },
@@ -2865,6 +3053,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"GUIDE2000C",
 			NULL,
 		},
+	.functionGroup		= 134,
 	},
 	{
 		.productIds			= { 0x10ff, 0x0, 0x0 },
@@ -2880,6 +3069,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"GUIDE2000M",
 			NULL,
 		},
+	.functionGroup		= 135,
 	},
 	{
 		.productIds			= { 0x1100, 0x0, 0x0 },
@@ -2895,6 +3085,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 136,
 	},
 	{
 		.productIds			= { 0x1101, 0x0, 0x0 },
@@ -2910,6 +3101,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 137,
 	},
 	{
 		.productIds			= { 0x1102, 0x0, 0x0 },
@@ -2925,6 +3117,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 138,
 	},
 	{
 		.productIds			= { 0x1103, 0x0, 0x0 },
@@ -2940,6 +3133,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 139,
 	},
 	{
 		.productIds			= { 0x1104, 0x0, 0x0 },
@@ -2955,6 +3149,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 140,
 	},
 	{
 		.productIds			= { 0x1105, 0x0, 0x0 },
@@ -2970,6 +3165,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 141,
 	},
 	{
 		.productIds			= { 0x1106, 0x0, 0x0 },
@@ -2985,6 +3181,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 142,
 	},
 	{
 		.productIds			= { 0x1107, 0x0, 0x0 },
@@ -3000,6 +3197,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 143,
 	},
 	{
 		.productIds			= { 0x1108, 0x0, 0x0 },
@@ -3015,6 +3213,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 144,
 	},
 	{
 		.productIds			= { 0x110d, 0x0, 0x0 },
@@ -3030,6 +3229,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 145,
 	},
 	{
 		.productIds			= { 0x110e, 0x0, 0x0 },
@@ -3045,6 +3245,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 146,
 	},
 	{
 		.productIds			= { 0x110f, 0x0, 0x0 },
@@ -3060,6 +3261,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 147,
 	},
 	{
 		.productIds			= { 0x1110, 0x0, 0x0 },
@@ -3075,6 +3277,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 148,
 	},
 	{
 		.productIds			= { 0x1111, 0x0, 0x0 },
@@ -3090,6 +3293,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 149,
 	},
 	{
 		.productIds			= { 0x1112, 0x0, 0x0 },
@@ -3105,6 +3309,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 150,
 	},
 	{
 		.productIds			= { 0x1113, 0x0, 0x0 },
@@ -3120,6 +3325,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 151,
 	},
 	{
 		.productIds			= { 0x1114, 0x0, 0x0 },
@@ -3135,6 +3341,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 152,
 	},
 	{
 		.productIds			= { 0x1115, 0x0, 0x0 },
@@ -3150,6 +3357,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 153,
 	},
 	{
 		.productIds			= { 0x1116, 0x0, 0x0 },
@@ -3165,6 +3373,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 154,
 	},
 	{
 		.productIds			= { 0x1117, 0x0, 0x0 },
@@ -3180,6 +3389,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 155,
 	},
 	{
 		.productIds			= { 0x111a, 0x0, 0x0 },
@@ -3195,6 +3405,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 156,
 	},
 	{
 		.productIds			= { 0x111b, 0x0, 0x0 },
@@ -3210,6 +3421,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 157,
 	},
 	{
 		.productIds			= { 0x111c, 0x0, 0x0 },
@@ -3225,6 +3437,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 158,
 	},
 	{
 		.productIds			= { 0x111d, 0x0, 0x0 },
@@ -3240,6 +3453,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 159,
 	},
 	{
 		.productIds			= { 0x1122, 0x0, 0x0 },
@@ -3255,6 +3469,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 139,
 	},
 	{
 		.productIds			= { 0x1123, 0x0, 0x0 },
@@ -3270,6 +3485,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 140,
 	},
 	{
 		.productIds			= { 0x1134, 0x0, 0x0 },
@@ -3285,6 +3501,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 153,
 	},
 	{
 		.productIds			= { 0x1135, 0x0, 0x0 },
@@ -3300,6 +3517,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 154,
 	},
 	{
 		.productIds			= { 0x1138, 0x0, 0x0 },
@@ -3315,6 +3533,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 160,
 	},
 	{
 		.productIds			= { 0x1139, 0x0, 0x0 },
@@ -3330,6 +3549,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 161,
 	},
 	{
 		.productIds			= { 0x113a, 0x0, 0x0 },
@@ -3345,6 +3565,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 157,
 	},
 	{
 		.productIds			= { 0x113b, 0x0, 0x0 },
@@ -3360,6 +3581,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 158,
 	},
 	{
 		.productIds			= { 0x113c, 0x0, 0x0 },
@@ -3375,6 +3597,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 159,
 	},
 	{
 		.productIds			= { 0x113d, 0x0, 0x0 },
@@ -3390,6 +3613,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 162,
 	},
 	{
 		.productIds			= { 0x113e, 0x0, 0x0 },
@@ -3405,6 +3629,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 163,
 	},
 	{
 		.productIds			= { 0x113f, 0x0, 0x0 },
@@ -3420,6 +3645,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 164,
 	},
 	{
 		.productIds			= { 0x1142, 0x0, 0x0 },
@@ -3435,6 +3661,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 140,
 	},
 	{
 		.productIds			= { 0x1143, 0x0, 0x0 },
@@ -3450,6 +3677,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 141,
 	},
 	{
 		.productIds			= { 0x1144, 0x0, 0x0 },
@@ -3465,6 +3693,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 142,
 	},
 	{
 		.productIds			= { 0x1145, 0x0, 0x0 },
@@ -3480,6 +3709,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 143,
 	},
 	{
 		.productIds			= { 0x1146, 0x0, 0x0 },
@@ -3495,6 +3725,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 144,
 	},
 	{
 		.productIds			= { 0x1147, 0x0, 0x0 },
@@ -3510,6 +3741,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 165,
 	},
 	{
 		.productIds			= { 0x1148, 0x0, 0x0 },
@@ -3525,6 +3757,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 166,
 	},
 	{
 		.productIds			= { 0x1149, 0x0, 0x0 },
@@ -3540,6 +3773,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 167,
 	},
 	{
 		.productIds			= { 0x114c, 0x0, 0x0 },
@@ -3555,6 +3789,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 146,
 	},
 	{
 		.productIds			= { 0x114d, 0x0, 0x0 },
@@ -3570,6 +3805,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 147,
 	},
 	{
 		.productIds			= { 0x114e, 0x0, 0x0 },
@@ -3585,6 +3821,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 168,
 	},
 	{
 		.productIds			= { 0x114f, 0x0, 0x0 },
@@ -3600,6 +3837,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 169,
 	},
 	{
 		.productIds			= { 0x1150, 0x0, 0x0 },
@@ -3615,6 +3853,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 150,
 	},
 	{
 		.productIds			= { 0x1151, 0x0, 0x0 },
@@ -3630,6 +3869,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 151,
 	},
 	{
 		.productIds			= { 0x1152, 0x0, 0x0 },
@@ -3645,6 +3885,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 152,
 	},
 	{
 		.productIds			= { 0x1153, 0x0, 0x0 },
@@ -3660,6 +3901,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 153,
 	},
 	{
 		.productIds			= { 0x1154, 0x0, 0x0 },
@@ -3675,6 +3917,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 154,
 	},
 	{
 		.productIds			= { 0x1155, 0x0, 0x0 },
@@ -3690,6 +3933,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 155,
 	},
 	{
 		.productIds			= { 0x1156, 0x0, 0x0 },
@@ -3705,6 +3949,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 170,
 	},
 	{
 		.productIds			= { 0x1157, 0x0, 0x0 },
@@ -3720,6 +3965,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 160,
 	},
 	{
 		.productIds			= { 0x1158, 0x0, 0x0 },
@@ -3735,6 +3981,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 161,
 	},
 	{
 		.productIds			= { 0x1159, 0x0, 0x0 },
@@ -3750,6 +3997,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 171,
 	},
 	{
 		.productIds			= { 0x115a, 0x0, 0x0 },
@@ -3765,6 +4013,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veLOX 178C",
 			"StarShoot Mini6.3Color",
 		},
+	.functionGroup		= 172,
 	},
 	{
 		.productIds			= { 0x115b, 0x0, 0x0 },
@@ -3780,6 +4029,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veLOX 178C (USB2)",
 			"StarShoot Mini6.3Color (USB2)",
 		},
+	.functionGroup		= 173,
 	},
 	{
 		.productIds			= { 0x115c, 0x0, 0x0 },
@@ -3795,6 +4045,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veLOX 178M",
 			"StarShoot Mini6.3Mono",
 		},
+	.functionGroup		= 174,
 	},
 	{
 		.productIds			= { 0x115d, 0x0, 0x0 },
@@ -3810,6 +4061,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veLOX 178M (USB2)",
 			"StarShoot Mini6.3Mono (USB2)",
 		},
+	.functionGroup		= 175,
 	},
 	{
 		.productIds			= { 0x115e, 0x0, 0x0 },
@@ -3825,6 +4077,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veLOX 290C",
 			NULL,
 		},
+	.functionGroup		= 176,
 	},
 	{
 		.productIds			= { 0x115f, 0x0, 0x0 },
@@ -3840,6 +4093,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veLOX 290C (USB2)",
 			NULL,
 		},
+	.functionGroup		= 177,
 	},
 	{
 		.productIds			= { 0x1160, 0x0, 0x0 },
@@ -3855,6 +4109,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veLOX 290M",
 			NULL,
 		},
+	.functionGroup		= 178,
 	},
 	{
 		.productIds			= { 0x1161, 0x0, 0x0 },
@@ -3870,6 +4125,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veLOX 290M (USB2)",
 			NULL,
 		},
+	.functionGroup		= 179,
 	},
 	{
 		.productIds			= { 0x1162, 0x0, 0x0 },
@@ -3885,6 +4141,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veLOX 224C",
 			NULL,
 		},
+	.functionGroup		= 180,
 	},
 	{
 		.productIds			= { 0x1163, 0x0, 0x0 },
@@ -3900,6 +4157,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veLOX 224C (USB2)",
 			NULL,
 		},
+	.functionGroup		= 181,
 	},
 	{
 		.productIds			= { 0x1168, 0x0, 0x0 },
@@ -3915,6 +4173,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 167,
 	},
 	{
 		.productIds			= { 0x1169, 0x0, 0x0 },
@@ -3930,6 +4189,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 182,
 	},
 	{
 		.productIds			= { 0x116a, 0x0, 0x0 },
@@ -3945,6 +4205,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 145,
 	},
 	{
 		.productIds			= { 0x116b, 0x0, 0x0 },
@@ -3960,6 +4221,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 146,
 	},
 	{
 		.productIds			= { 0x116c, 0x0, 0x0 },
@@ -3975,6 +4237,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 147,
 	},
 	{
 		.productIds			= { 0x116d, 0x0, 0x0 },
@@ -3990,6 +4253,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 168,
 	},
 	{
 		.productIds			= { 0x116e, 0x0, 0x0 },
@@ -4005,6 +4269,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 169,
 	},
 	{
 		.productIds			= { 0x116f, 0x0, 0x0 },
@@ -4020,6 +4285,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 183,
 	},
 	{
 		.productIds			= { 0x1170, 0x0, 0x0 },
@@ -4035,6 +4301,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 151,
 	},
 	{
 		.productIds			= { 0x1171, 0x0, 0x0 },
@@ -4050,6 +4317,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 152,
 	},
 	{
 		.productIds			= { 0x1172, 0x0, 0x0 },
@@ -4065,6 +4333,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 153,
 	},
 	{
 		.productIds			= { 0x1173, 0x0, 0x0 },
@@ -4080,6 +4349,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 154,
 	},
 	{
 		.productIds			= { 0x1174, 0x0, 0x0 },
@@ -4095,6 +4365,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 155,
 	},
 	{
 		.productIds			= { 0x1175, 0x0, 0x0 },
@@ -4110,6 +4381,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 170,
 	},
 	{
 		.productIds			= { 0x1176, 0x0, 0x0 },
@@ -4125,6 +4397,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veLOX 287C",
 			NULL,
 		},
+	.functionGroup		= 184,
 	},
 	{
 		.productIds			= { 0x1177, 0x0, 0x0 },
@@ -4140,6 +4413,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veLOX 287C (USB2)",
 			NULL,
 		},
+	.functionGroup		= 185,
 	},
 	{
 		.productIds			= { 0x1178, 0x0, 0x0 },
@@ -4155,6 +4429,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veLOX 287M",
 			NULL,
 		},
+	.functionGroup		= 186,
 	},
 	{
 		.productIds			= { 0x1179, 0x0, 0x0 },
@@ -4170,6 +4445,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veLOX 287M (USB2)",
 			NULL,
 		},
+	.functionGroup		= 187,
 	},
 	{
 		.productIds			= { 0x117a, 0x0, 0x0 },
@@ -4185,6 +4461,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veLOX 385C",
 			NULL,
 		},
+	.functionGroup		= 188,
 	},
 	{
 		.productIds			= { 0x117b, 0x0, 0x0 },
@@ -4200,6 +4477,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veLOX 385C (USB2)",
 			NULL,
 		},
+	.functionGroup		= 189,
 	},
 	{
 		.productIds			= { 0x117c, 0x1220, 0x0 },
@@ -4215,6 +4493,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 163,
 	},
 	{
 		.productIds			= { 0x117d, 0x0, 0x0 },
@@ -4230,6 +4509,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 164,
 	},
 	{
 		.productIds			= { 0x117e, 0x0, 0x0 },
@@ -4245,6 +4525,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 190,
 	},
 	{
 		.productIds			= { 0x117f, 0x0, 0x0 },
@@ -4260,6 +4541,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 191,
 	},
 	{
 		.productIds			= { 0x1180, 0x0, 0x0 },
@@ -4275,6 +4557,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 140,
 	},
 	{
 		.productIds			= { 0x1181, 0x0, 0x0 },
@@ -4290,6 +4573,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 141,
 	},
 	{
 		.productIds			= { 0x1182, 0x0, 0x0 },
@@ -4305,6 +4589,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 142,
 	},
 	{
 		.productIds			= { 0x1183, 0x0, 0x0 },
@@ -4320,6 +4605,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 143,
 	},
 	{
 		.productIds			= { 0x1184, 0x0, 0x0 },
@@ -4335,6 +4621,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 144,
 	},
 	{
 		.productIds			= { 0x1185, 0x0, 0x0 },
@@ -4350,6 +4637,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 165,
 	},
 	{
 		.productIds			= { 0x1186, 0x0, 0x0 },
@@ -4365,6 +4653,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 166,
 	},
 	{
 		.productIds			= { 0x1187, 0x0, 0x0 },
@@ -4380,6 +4669,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 167,
 	},
 	{
 		.productIds			= { 0x1188, 0x0, 0x0 },
@@ -4395,6 +4685,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 182,
 	},
 	{
 		.productIds			= { 0x1189, 0x0, 0x0 },
@@ -4410,6 +4701,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 192,
 	},
 	{
 		.productIds			= { 0x118a, 0x0, 0x0 },
@@ -4425,6 +4717,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 146,
 	},
 	{
 		.productIds			= { 0x118b, 0x0, 0x0 },
@@ -4440,6 +4733,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 147,
 	},
 	{
 		.productIds			= { 0x119c, 0x0, 0x0 },
@@ -4455,6 +4749,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 164,
 	},
 	{
 		.productIds			= { 0x119d, 0x0, 0x0 },
@@ -4470,6 +4765,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 190,
 	},
 	{
 		.productIds			= { 0x11a0, 0x0, 0x0 },
@@ -4485,6 +4781,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 193,
 	},
 	{
 		.productIds			= { 0x11a1, 0x0, 0x0 },
@@ -4500,6 +4797,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 194,
 	},
 	{
 		.productIds			= { 0x11a2, 0x0, 0x0 },
@@ -4515,6 +4813,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 195,
 	},
 	{
 		.productIds			= { 0x11a3, 0x0, 0x0 },
@@ -4530,6 +4829,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 196,
 	},
 	{
 		.productIds			= { 0x11c0, 0x0, 0x0 },
@@ -4545,6 +4845,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 194,
 	},
 	{
 		.productIds			= { 0x11c1, 0x0, 0x0 },
@@ -4560,6 +4861,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 195,
 	},
 	{
 		.productIds			= { 0x11c2, 0x0, 0x0 },
@@ -4569,12 +4871,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			"G3CMOS02300KPA",
 			NULL,
+			NULL,
 			"SkyRaider DS2.3",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 196,
 	},
 	{
 		.productIds			= { 0x11c3, 0x0, 0x0 },
@@ -4584,12 +4887,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			"G3CMOS02300KPA (USB2)",
 			NULL,
+			NULL,
 			"SkyRaider DS2.3 (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 197,
 	},
 	{
 		.productIds			= { 0x11c4, 0x0, 0x0 },
@@ -4605,6 +4909,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 198,
 	},
 	{
 		.productIds			= { 0x11c5, 0x0, 0x0 },
@@ -4620,6 +4925,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 199,
 	},
 	{
 		.productIds			= { 0x11c6, 0x0, 0x0 },
@@ -4635,6 +4941,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 200,
 	},
 	{
 		.productIds			= { 0x11c7, 0x0, 0x0 },
@@ -4650,6 +4957,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 201,
 	},
 	{
 		.productIds			= { 0x11c8, 0x0, 0x0 },
@@ -4665,6 +4973,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 202,
 	},
 	{
 		.productIds			= { 0x11c9, 0x0, 0x0 },
@@ -4680,6 +4989,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 203,
 	},
 	{
 		.productIds			= { 0x11ca, 0x0, 0x0 },
@@ -4695,6 +5005,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veLOX 178C",
 			"StarShoot Mini6.3Color",
 		},
+	.functionGroup		= 204,
 	},
 	{
 		.productIds			= { 0x11cb, 0x0, 0x0 },
@@ -4710,6 +5021,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veLOX 178C (USB2)",
 			"StarShoot Mini6.3Color (USB2)",
 		},
+	.functionGroup		= 205,
 	},
 	{
 		.productIds			= { 0x11cc, 0x0, 0x0 },
@@ -4725,6 +5037,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veLOX 178M",
 			"StarShoot Mini6.3Mono",
 		},
+	.functionGroup		= 206,
 	},
 	{
 		.productIds			= { 0x11cd, 0x0, 0x0 },
@@ -4740,6 +5053,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veLOX 178M (USB2)",
 			"StarShoot Mini6.3Mono (USB2)",
 		},
+	.functionGroup		= 207,
 	},
 	{
 		.productIds			= { 0x11ce, 0x0, 0x0 },
@@ -4755,6 +5069,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 208,
 	},
 	{
 		.productIds			= { 0x11cf, 0x0, 0x0 },
@@ -4770,6 +5085,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 209,
 	},
 	{
 		.productIds			= { 0x11d0, 0x0, 0x0 },
@@ -4785,6 +5101,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 210,
 	},
 	{
 		.productIds			= { 0x11d1, 0x0, 0x0 },
@@ -4800,6 +5117,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 211,
 	},
 	{
 		.productIds			= { 0x11d2, 0x0, 0x0 },
@@ -4815,6 +5133,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 212,
 	},
 	{
 		.productIds			= { 0x11d3, 0x0, 0x0 },
@@ -4830,6 +5149,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 213,
 	},
 	{
 		.productIds			= { 0x11d4, 0x0, 0x0 },
@@ -4845,6 +5165,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 214,
 	},
 	{
 		.productIds			= { 0x11d5, 0x0, 0x0 },
@@ -4860,6 +5181,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 215,
 	},
 	{
 		.productIds			= { 0x11de, 0x0, 0x0 },
@@ -4875,6 +5197,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 216,
 	},
 	{
 		.productIds			= { 0x11df, 0x0, 0x0 },
@@ -4890,6 +5213,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 217,
 	},
 	{
 		.productIds			= { 0x11e0, 0x0, 0x0 },
@@ -4905,6 +5229,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 195,
 	},
 	{
 		.productIds			= { 0x11e1, 0x0, 0x0 },
@@ -4920,6 +5245,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 196,
 	},
 	{
 		.productIds			= { 0x11e4, 0x0, 0x0 },
@@ -4935,6 +5261,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 199,
 	},
 	{
 		.productIds			= { 0x11e5, 0x0, 0x0 },
@@ -4950,6 +5277,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 200,
 	},
 	{
 		.productIds			= { 0x11e6, 0x0, 0x0 },
@@ -4965,6 +5293,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 201,
 	},
 	{
 		.productIds			= { 0x11e7, 0x0, 0x0 },
@@ -4980,6 +5309,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 202,
 	},
 	{
 		.productIds			= { 0x11ea, 0x0, 0x0 },
@@ -4995,6 +5325,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veTEC 16000C",
 			"StarShoot G16Color",
 		},
+	.functionGroup		= 218,
 	},
 	{
 		.productIds			= { 0x11eb, 0x0, 0x0 },
@@ -5010,6 +5341,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veTEC 16000C (USB2)",
 			"StarShoot G16Color (USB2)",
 		},
+	.functionGroup		= 219,
 	},
 	{
 		.productIds			= { 0x11ec, 0x0, 0x0 },
@@ -5025,6 +5357,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 220,
 	},
 	{
 		.productIds			= { 0x11ed, 0x0, 0x0 },
@@ -5040,6 +5373,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 208,
 	},
 	{
 		.productIds			= { 0x11ee, 0x0, 0x0 },
@@ -5055,6 +5389,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 209,
 	},
 	{
 		.productIds			= { 0x11ef, 0x0, 0x0 },
@@ -5070,6 +5405,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 221,
 	},
 	{
 		.productIds			= { 0x11f0, 0x0, 0x0 },
@@ -5085,6 +5421,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 211,
 	},
 	{
 		.productIds			= { 0x11f1, 0x0, 0x0 },
@@ -5100,6 +5437,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 212,
 	},
 	{
 		.productIds			= { 0x11f2, 0x0, 0x0 },
@@ -5115,6 +5453,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 213,
 	},
 	{
 		.productIds			= { 0x11f3, 0x0, 0x0 },
@@ -5130,6 +5469,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 214,
 	},
 	{
 		.productIds			= { 0x11f4, 0x0, 0x0 },
@@ -5145,6 +5485,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 215,
 	},
 	{
 		.productIds			= { 0x11f5, 0x0, 0x0 },
@@ -5160,6 +5501,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 222,
 	},
 	{
 		.productIds			= { 0x11f6, 0x0, 0x0 },
@@ -5175,6 +5517,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veTEC 16000M",
 			"StarShoot G16Mono",
 		},
+	.functionGroup		= 223,
 	},
 	{
 		.productIds			= { 0x11f7, 0x0, 0x0 },
@@ -5190,6 +5533,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veTEC 16000M (USB2)",
 			"StarShoot G16Mono (USB2)",
 		},
+	.functionGroup		= 224,
 	},
 	{
 		.productIds			= { 0x11f8, 0x0, 0x0 },
@@ -5205,6 +5549,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 225,
 	},
 	{
 		.productIds			= { 0x11f9, 0x0, 0x0 },
@@ -5220,6 +5565,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 226,
 	},
 	{
 		.productIds			= { 0x11fa, 0x0, 0x0 },
@@ -5235,6 +5581,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 227,
 	},
 	{
 		.productIds			= { 0x11fb, 0x0, 0x0 },
@@ -5250,6 +5597,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 228,
 	},
 	{
 		.productIds			= { 0x11fc, 0x0, 0x0 },
@@ -5265,6 +5613,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 229,
 	},
 	{
 		.productIds			= { 0x11fd, 0x0, 0x0 },
@@ -5280,6 +5629,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			"StarShoot G10Color",
 		},
+	.functionGroup		= 230,
 	},
 	{
 		.productIds			= { 0x11fe, 0x0, 0x0 },
@@ -5295,6 +5645,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			"StarShoot G10Color (USB2)",
 		},
+	.functionGroup		= 231,
 	},
 	{
 		.productIds			= { 0x11ff, 0x0, 0x0 },
@@ -5310,6 +5661,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 232,
 	},
 	{
 		.productIds			= { 0x1200, 0x0, 0x0 },
@@ -5325,6 +5677,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 86,
 	},
 	{
 		.productIds			= { 0x1201, 0x0, 0x0 },
@@ -5340,6 +5693,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 97,
 	},
 	{
 		.productIds			= { 0x1202, 0x0, 0x0 },
@@ -5355,6 +5709,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 87,
 	},
 	{
 		.productIds			= { 0x1203, 0x0, 0x0 },
@@ -5370,6 +5725,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 233,
 	},
 	{
 		.productIds			= { 0x1204, 0x0, 0x0 },
@@ -5385,6 +5741,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 117,
 	},
 	{
 		.productIds			= { 0x1205, 0x0, 0x0 },
@@ -5400,6 +5757,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 88,
 	},
 	{
 		.productIds			= { 0x1206, 0x0, 0x0 },
@@ -5415,6 +5773,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 89,
 	},
 	{
 		.productIds			= { 0x1207, 0x0, 0x0 },
@@ -5430,6 +5789,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 98,
 	},
 	{
 		.productIds			= { 0x1208, 0x0, 0x0 },
@@ -5445,6 +5805,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 234,
 	},
 	{
 		.productIds			= { 0x1209, 0x0, 0x0 },
@@ -5460,6 +5821,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 235,
 	},
 	{
 		.productIds			= { 0x120a, 0x0, 0x0 },
@@ -5475,6 +5837,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 90,
 	},
 	{
 		.productIds			= { 0x120b, 0x0, 0x0 },
@@ -5490,6 +5853,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 91,
 	},
 	{
 		.productIds			= { 0x120c, 0x0, 0x0 },
@@ -5505,6 +5869,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 92,
 	},
 	{
 		.productIds			= { 0x120d, 0x0, 0x0 },
@@ -5520,6 +5885,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 93,
 	},
 	{
 		.productIds			= { 0x120e, 0x0, 0x0 },
@@ -5535,6 +5901,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 236,
 	},
 	{
 		.productIds			= { 0x120f, 0x0, 0x0 },
@@ -5550,6 +5917,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 112,
 	},
 	{
 		.productIds			= { 0x1210, 0x0, 0x0 },
@@ -5565,6 +5933,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 237,
 	},
 	{
 		.productIds			= { 0x1213, 0x0, 0x0 },
@@ -5580,6 +5949,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 238,
 	},
 	{
 		.productIds			= { 0x1214, 0x0, 0x0 },
@@ -5595,6 +5965,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 76,
 	},
 	{
 		.productIds			= { 0x1215, 0x0, 0x0 },
@@ -5610,6 +5981,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 100,
 	},
 	{
 		.productIds			= { 0x1216, 0x0, 0x0 },
@@ -5625,6 +5997,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 77,
 	},
 	{
 		.productIds			= { 0x1217, 0x0, 0x0 },
@@ -5640,6 +6013,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 78,
 	},
 	{
 		.productIds			= { 0x1218, 0x0, 0x0 },
@@ -5655,6 +6029,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 79,
 	},
 	{
 		.productIds			= { 0x1219, 0x0, 0x0 },
@@ -5670,6 +6045,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 95,
 	},
 	{
 		.productIds			= { 0x121a, 0x0, 0x0 },
@@ -5685,6 +6061,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			"StarShoot G10Color",
 		},
+	.functionGroup		= 239,
 	},
 	{
 		.productIds			= { 0x121b, 0x0, 0x0 },
@@ -5700,6 +6077,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			"StarShoot G10Color (USB2)",
 		},
+	.functionGroup		= 240,
 	},
 	{
 		.productIds			= { 0x121c, 0x0, 0x0 },
@@ -5707,14 +6085,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x876b44c9,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"MTR3CMOS10300KPA",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 83,
 	},
 	{
 		.productIds			= { 0x121d, 0x0, 0x0 },
@@ -5722,14 +6101,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x876b44c9,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"MTR3CMOS10300KPA (USB2)",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 84,
 	},
 	{
 		.productIds			= { 0x121e, 0x0, 0x0 },
@@ -5745,6 +6125,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 85,
 	},
 	{
 		.productIds			= { 0x121f, 0x0, 0x0 },
@@ -5760,6 +6141,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 96,
 	},
 	{
 		.productIds			= { 0x1221, 0x0, 0x0 },
@@ -5775,6 +6157,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 87,
 	},
 	{
 		.productIds			= { 0x1222, 0x0, 0x0 },
@@ -5790,6 +6173,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 233,
 	},
 	{
 		.productIds			= { 0x1223, 0x0, 0x0 },
@@ -5805,6 +6189,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 117,
 	},
 	{
 		.productIds			= { 0x1224, 0x0, 0x0 },
@@ -5820,6 +6205,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 88,
 	},
 	{
 		.productIds			= { 0x1225, 0x0, 0x0 },
@@ -5835,6 +6221,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 89,
 	},
 	{
 		.productIds			= { 0x1226, 0x0, 0x0 },
@@ -5850,6 +6237,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 98,
 	},
 	{
 		.productIds			= { 0x1227, 0x0, 0x0 },
@@ -5865,6 +6253,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 234,
 	},
 	{
 		.productIds			= { 0x1228, 0x0, 0x0 },
@@ -5880,6 +6269,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 235,
 	},
 	{
 		.productIds			= { 0x122b, 0x0, 0x0 },
@@ -5895,6 +6285,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 92,
 	},
 	{
 		.productIds			= { 0x122c, 0x0, 0x0 },
@@ -5910,6 +6301,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 93,
 	},
 	{
 		.productIds			= { 0x122d, 0x0, 0x0 },
@@ -5925,6 +6317,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 236,
 	},
 	{
 		.productIds			= { 0x122e, 0x0, 0x0 },
@@ -5940,6 +6333,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 112,
 	},
 	{
 		.productIds			= { 0x122f, 0x0, 0x0 },
@@ -5955,6 +6349,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 113,
 	},
 	{
 		.productIds			= { 0x1230, 0x0, 0x0 },
@@ -5970,6 +6365,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 73,
 	},
 	{
 		.productIds			= { 0x1231, 0x0, 0x0 },
@@ -5985,6 +6381,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 94,
 	},
 	{
 		.productIds			= { 0x1232, 0x0, 0x0 },
@@ -6000,6 +6397,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 238,
 	},
 	{
 		.productIds			= { 0x1233, 0x0, 0x0 },
@@ -6015,6 +6413,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 76,
 	},
 	{
 		.productIds			= { 0x1234, 0x0, 0x0 },
@@ -6030,6 +6429,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 100,
 	},
 	{
 		.productIds			= { 0x1235, 0x0, 0x0 },
@@ -6045,6 +6445,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 77,
 	},
 	{
 		.productIds			= { 0x1236, 0x0, 0x0 },
@@ -6060,6 +6461,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 78,
 	},
 	{
 		.productIds			= { 0x1237, 0x0, 0x0 },
@@ -6075,6 +6477,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 79,
 	},
 	{
 		.productIds			= { 0x1238, 0x0, 0x0 },
@@ -6090,6 +6493,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 95,
 	},
 	{
 		.productIds			= { 0x1239, 0x0, 0x0 },
@@ -6105,6 +6509,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 101,
 	},
 	{
 		.productIds			= { 0x123a, 0x0, 0x0 },
@@ -6120,6 +6525,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 82,
 	},
 	{
 		.productIds			= { 0x123b, 0x0, 0x0 },
@@ -6135,6 +6541,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 83,
 	},
 	{
 		.productIds			= { 0x123c, 0x0, 0x0 },
@@ -6150,6 +6557,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 84,
 	},
 	{
 		.productIds			= { 0x123d, 0x0, 0x0 },
@@ -6165,6 +6573,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 85,
 	},
 	{
 		.productIds			= { 0x123e, 0x0, 0x0 },
@@ -6180,6 +6589,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 96,
 	},
 	{
 		.productIds			= { 0x123f, 0x0, 0x0 },
@@ -6195,6 +6605,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 241,
 	},
 	{
 		.productIds			= { 0x1240, 0x0, 0x0 },
@@ -6210,6 +6621,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 87,
 	},
 	{
 		.productIds			= { 0x1241, 0x0, 0x0 },
@@ -6225,6 +6637,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 233,
 	},
 	{
 		.productIds			= { 0x1242, 0x0, 0x0 },
@@ -6240,6 +6653,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 117,
 	},
 	{
 		.productIds			= { 0x1243, 0x0, 0x0 },
@@ -6255,6 +6669,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 88,
 	},
 	{
 		.productIds			= { 0x1244, 0x0, 0x0 },
@@ -6270,6 +6685,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 89,
 	},
 	{
 		.productIds			= { 0x1245, 0x0, 0x0 },
@@ -6285,6 +6701,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 98,
 	},
 	{
 		.productIds			= { 0x1246, 0x0, 0x0 },
@@ -6300,6 +6717,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 234,
 	},
 	{
 		.productIds			= { 0x1247, 0x0, 0x0 },
@@ -6315,6 +6733,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 235,
 	},
 	{
 		.productIds			= { 0x1248, 0x0, 0x0 },
@@ -6330,6 +6749,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 99,
 	},
 	{
 		.productIds			= { 0x1249, 0x0, 0x0 },
@@ -6345,6 +6765,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veTEC 432C",
 			NULL,
 		},
+	.functionGroup		= 242,
 	},
 	{
 		.productIds			= { 0x124a, 0x0, 0x0 },
@@ -6360,6 +6781,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veTEC 432C (USB2)",
 			NULL,
 		},
+	.functionGroup		= 243,
 	},
 	{
 		.productIds			= { 0x124b, 0x0, 0x0 },
@@ -6375,6 +6797,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 93,
 	},
 	{
 		.productIds			= { 0x124c, 0x0, 0x0 },
@@ -6390,6 +6813,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 236,
 	},
 	{
 		.productIds			= { 0x124d, 0x0, 0x0 },
@@ -6405,6 +6829,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veTEC 432M",
 			NULL,
 		},
+	.functionGroup		= 244,
 	},
 	{
 		.productIds			= { 0x124e, 0x0, 0x0 },
@@ -6420,6 +6845,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			"veTEC 432M (USB2)",
 			NULL,
 		},
+	.functionGroup		= 245,
 	},
 	{
 		.productIds			= { 0x124f, 0x0, 0x0 },
@@ -6435,6 +6861,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 114,
 	},
 	{
 		.productIds			= { 0x1250, 0x0, 0x0 },
@@ -6450,6 +6877,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 94,
 	},
 	{
 		.productIds			= { 0x1251, 0x0, 0x0 },
@@ -6465,6 +6893,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 238,
 	},
 	{
 		.productIds			= { 0x1252, 0x0, 0x0 },
@@ -6480,6 +6909,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 76,
 	},
 	{
 		.productIds			= { 0x1253, 0x0, 0x0 },
@@ -6495,6 +6925,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 100,
 	},
 	{
 		.productIds			= { 0x1254, 0x0, 0x0 },
@@ -6510,6 +6941,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 77,
 	},
 	{
 		.productIds			= { 0x1255, 0x0, 0x0 },
@@ -6525,6 +6957,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 78,
 	},
 	{
 		.productIds			= { 0x1256, 0x0, 0x0 },
@@ -6540,6 +6973,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 79,
 	},
 	{
 		.productIds			= { 0x1257, 0x0, 0x0 },
@@ -6555,6 +6989,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 95,
 	},
 	{
 		.productIds			= { 0x1258, 0x0, 0x0 },
@@ -6570,6 +7005,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			"StarShoot G21Color",
 		},
+	.functionGroup		= 246,
 	},
 	{
 		.productIds			= { 0x1259, 0x0, 0x0 },
@@ -6585,6 +7021,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			"StarShoot G21Color (USB2)",
 		},
+	.functionGroup		= 247,
 	},
 	{
 		.productIds			= { 0x125a, 0x0, 0x0 },
@@ -6600,6 +7037,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 83,
 	},
 	{
 		.productIds			= { 0x125b, 0x0, 0x0 },
@@ -6615,6 +7053,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 84,
 	},
 	{
 		.productIds			= { 0x125c, 0x0, 0x0 },
@@ -6630,6 +7069,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 85,
 	},
 	{
 		.productIds			= { 0x125d, 0x0, 0x0 },
@@ -6645,6 +7085,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 96,
 	},
 	{
 		.productIds			= { 0x125e, 0x0, 0x0 },
@@ -6660,6 +7101,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 241,
 	},
 	{
 		.productIds			= { 0x125f, 0x0, 0x0 },
@@ -6675,6 +7117,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 248,
 	},
 	{
 		.productIds			= { 0x1260, 0x0, 0x0 },
@@ -6690,6 +7133,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 233,
 	},
 	{
 		.productIds			= { 0x1261, 0x0, 0x0 },
@@ -6705,6 +7149,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 117,
 	},
 	{
 		.productIds			= { 0x1262, 0x0, 0x0 },
@@ -6720,6 +7165,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 88,
 	},
 	{
 		.productIds			= { 0x1263, 0x0, 0x0 },
@@ -6735,6 +7181,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 89,
 	},
 	{
 		.productIds			= { 0x1264, 0x0, 0x0 },
@@ -6750,6 +7197,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 98,
 	},
 	{
 		.productIds			= { 0x1265, 0x0, 0x0 },
@@ -6765,6 +7213,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 234,
 	},
 	{
 		.productIds			= { 0x1266, 0x0, 0x0 },
@@ -6780,6 +7229,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 235,
 	},
 	{
 		.productIds			= { 0x1267, 0x0, 0x0 },
@@ -6795,6 +7245,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 99,
 	},
 	{
 		.productIds			= { 0x1268, 0x0, 0x0 },
@@ -6810,6 +7261,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 118,
 	},
 	{
 		.productIds			= { 0x1269, 0x0, 0x0 },
@@ -6825,6 +7277,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 249,
 	},
 	{
 		.productIds			= { 0x126a, 0x0, 0x0 },
@@ -6840,6 +7293,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 93,
 	},
 	{
 		.productIds			= { 0x126b, 0x0, 0x0 },
@@ -6855,6 +7309,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 236,
 	},
 	{
 		.productIds			= { 0x126e, 0x0, 0x0 },
@@ -6870,6 +7325,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 114,
 	},
 	{
 		.productIds			= { 0x126f, 0x0, 0x0 },
@@ -6885,6 +7341,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 115,
 	},
 	{
 		.productIds			= { 0x1270, 0x0, 0x0 },
@@ -6900,6 +7357,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 238,
 	},
 	{
 		.productIds			= { 0x1271, 0x0, 0x0 },
@@ -6915,6 +7373,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 76,
 	},
 	{
 		.productIds			= { 0x1272, 0x0, 0x0 },
@@ -6930,6 +7389,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 100,
 	},
 	{
 		.productIds			= { 0x1273, 0x0, 0x0 },
@@ -6945,6 +7405,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 77,
 	},
 	{
 		.productIds			= { 0x1274, 0x0, 0x0 },
@@ -6960,6 +7421,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 78,
 	},
 	{
 		.productIds			= { 0x1275, 0x0, 0x0 },
@@ -6975,6 +7437,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 79,
 	},
 	{
 		.productIds			= { 0x1276, 0x0, 0x0 },
@@ -6990,6 +7453,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 95,
 	},
 	{
 		.productIds			= { 0x1277, 0x0, 0x0 },
@@ -7005,6 +7469,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 101,
 	},
 	{
 		.productIds			= { 0x127a, 0x0, 0x0 },
@@ -7020,6 +7485,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 84,
 	},
 	{
 		.productIds			= { 0x127b, 0x0, 0x0 },
@@ -7035,6 +7501,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 85,
 	},
 	{
 		.productIds			= { 0x127c, 0x0, 0x0 },
@@ -7050,6 +7517,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 96,
 	},
 	{
 		.productIds			= { 0x127d, 0x0, 0x0 },
@@ -7065,6 +7533,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 241,
 	},
 	{
 		.productIds			= { 0x127e, 0x0, 0x0 },
@@ -7080,6 +7549,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 248,
 	},
 	{
 		.productIds			= { 0x127f, 0x0, 0x0 },
@@ -7095,6 +7565,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 250,
 	},
 	{
 		.productIds			= { 0x1280, 0x0, 0x0 },
@@ -7110,6 +7581,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 117,
 	},
 	{
 		.productIds			= { 0x1281, 0x0, 0x0 },
@@ -7125,6 +7597,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 88,
 	},
 	{
 		.productIds			= { 0x1282, 0x0, 0x0 },
@@ -7140,6 +7613,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 89,
 	},
 	{
 		.productIds			= { 0x1283, 0x0, 0x0 },
@@ -7155,6 +7629,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 98,
 	},
 	{
 		.productIds			= { 0x1284, 0x0, 0x0 },
@@ -7170,6 +7645,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 234,
 	},
 	{
 		.productIds			= { 0x1285, 0x0, 0x0 },
@@ -7185,6 +7661,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 235,
 	},
 	{
 		.productIds			= { 0x1286, 0x0, 0x0 },
@@ -7200,6 +7677,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 99,
 	},
 	{
 		.productIds			= { 0x1287, 0x0, 0x0 },
@@ -7215,6 +7693,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 118,
 	},
 	{
 		.productIds			= { 0x1288, 0x0, 0x0 },
@@ -7230,6 +7709,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 249,
 	},
 	{
 		.productIds			= { 0x1289, 0x0, 0x0 },
@@ -7245,6 +7725,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 119,
 	},
 	{
 		.productIds			= { 0x128a, 0x0, 0x0 },
@@ -7260,6 +7741,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 236,
 	},
 	{
 		.productIds			= { 0x128b, 0x0, 0x0 },
@@ -7275,6 +7757,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 112,
 	},
 	{
 		.productIds			= { 0x128c, 0x0, 0x0 },
@@ -7290,6 +7773,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 113,
 	},
 	{
 		.productIds			= { 0x128d, 0x0, 0x0 },
@@ -7305,6 +7789,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 114,
 	},
 	{
 		.productIds			= { 0x128e, 0x0, 0x0 },
@@ -7320,6 +7805,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 115,
 	},
 	{
 		.productIds			= { 0x128f, 0x0, 0x0 },
@@ -7335,6 +7821,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 251,
 	},
 	{
 		.productIds			= { 0x1290, 0x0, 0x0 },
@@ -7350,6 +7837,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 76,
 	},
 	{
 		.productIds			= { 0x1291, 0x0, 0x0 },
@@ -7365,6 +7853,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 100,
 	},
 	{
 		.productIds			= { 0x1292, 0x0, 0x0 },
@@ -7380,6 +7869,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 77,
 	},
 	{
 		.productIds			= { 0x1293, 0x0, 0x0 },
@@ -7395,6 +7885,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 78,
 	},
 	{
 		.productIds			= { 0x1294, 0x0, 0x0 },
@@ -7410,6 +7901,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 79,
 	},
 	{
 		.productIds			= { 0x1295, 0x0, 0x0 },
@@ -7425,6 +7917,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 95,
 	},
 	{
 		.productIds			= { 0x1296, 0x0, 0x0 },
@@ -7440,6 +7933,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 101,
 	},
 	{
 		.productIds			= { 0x129e, 0x0, 0x0 },
@@ -7455,6 +7949,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 250,
 	},
 	{
 		.productIds			= { 0x129f, 0x0, 0x0 },
@@ -7470,6 +7965,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 252,
 	},
 	{
 		.productIds			= { 0x12a0, 0x0, 0x0 },
@@ -7485,6 +7981,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 253,
 	},
 	{
 		.productIds			= { 0x12a5, 0x0, 0x0 },
@@ -7500,6 +7997,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 128,
 	},
 	{
 		.productIds			= { 0x12a6, 0x0, 0x0 },
@@ -7515,6 +8013,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 129,
 	},
 	{
 		.productIds			= { 0x12ab, 0x0, 0x0 },
@@ -7530,6 +8029,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 254,
 	},
 	{
 		.productIds			= { 0x12ac, 0x0, 0x0 },
@@ -7545,6 +8045,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 255,
 	},
 	{
 		.productIds			= { 0x12ad, 0x0, 0x0 },
@@ -7560,6 +8061,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 256,
 	},
 	{
 		.productIds			= { 0x12ae, 0x0, 0x0 },
@@ -7575,6 +8077,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 257,
 	},
 	{
 		.productIds			= { 0x12af, 0x0, 0x0 },
@@ -7590,6 +8093,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 258,
 	},
 	{
 		.productIds			= { 0x12b0, 0x0, 0x0 },
@@ -7605,6 +8109,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 259,
 	},
 	{
 		.productIds			= { 0x12b1, 0x0, 0x0 },
@@ -7620,6 +8125,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 126,
 	},
 	{
 		.productIds			= { 0x12b2, 0x0, 0x0 },
@@ -7635,6 +8141,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 260,
 	},
 	{
 		.productIds			= { 0x12b7, 0x0, 0x0 },
@@ -7650,6 +8157,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			"StarShoot G26Color",
 		},
+	.functionGroup		= 261,
 	},
 	{
 		.productIds			= { 0x12b8, 0x0, 0x0 },
@@ -7665,6 +8173,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			"StarShoot G26Color (USB2)",
 		},
+	.functionGroup		= 262,
 	},
 	{
 		.productIds			= { 0x12b9, 0x0, 0x0 },
@@ -7680,6 +8189,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 263,
 	},
 	{
 		.productIds			= { 0x12ba, 0x0, 0x0 },
@@ -7695,6 +8205,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 125,
 	},
 	{
 		.productIds			= { 0x12bb, 0x0, 0x0 },
@@ -7710,6 +8221,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 264,
 	},
 	{
 		.productIds			= { 0x12bc, 0x0, 0x0 },
@@ -7725,6 +8237,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 265,
 	},
 	{
 		.productIds			= { 0x12bd, 0x0, 0x0 },
@@ -7740,21 +8253,23 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 266,
 	},
 	{
 		.productIds			= { 0x12be, 0x0, 0x0 },
 		.matchOldAltair	= 0,
 		.matchAltMeade	= 0,
-		.capabilities		= 0x180876f44c9,
+		.capabilities		= 0x180876b84d9,
 		.name						= {
+			"MTR3CMOS09000KPA (USB2)",
 			"ATR3CMOS26000KMA (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			"MTR3CMOS09000KPA (USB2)",
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 127,
 	},
 	{
 		.productIds			= { 0x12bf, 0x0, 0x0 },
@@ -7770,6 +8285,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 267,
 	},
 	{
 		.productIds			= { 0x12c1, 0x0, 0x0 },
@@ -7777,14 +8293,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x180876b84d9,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"MTR3CMOS26000KMA",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 268,
 	},
 	{
 		.productIds			= { 0x12c2, 0x0, 0x0 },
@@ -7792,14 +8309,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x180876b84d9,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"MTR3CMOS26000KMA (USB2)",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 269,
 	},
 	{
 		.productIds			= { 0x12c7, 0x0, 0x0 },
@@ -7815,6 +8333,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 130,
 	},
 	{
 		.productIds			= { 0x12c8, 0x0, 0x0 },
@@ -7830,6 +8349,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 131,
 	},
 	{
 		.productIds			= { 0x12cb, 0x0, 0x0 },
@@ -7845,6 +8365,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 255,
 	},
 	{
 		.productIds			= { 0x12cc, 0x0, 0x0 },
@@ -7860,6 +8381,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 256,
 	},
 	{
 		.productIds			= { 0x12cd, 0x0, 0x0 },
@@ -7875,6 +8397,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 257,
 	},
 	{
 		.productIds			= { 0x12ce, 0x0, 0x0 },
@@ -7890,6 +8413,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 258,
 	},
 	{
 		.productIds			= { 0x12cf, 0x0, 0x0 },
@@ -7905,6 +8429,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 270,
 	},
 	{
 		.productIds			= { 0x12d0, 0x0, 0x0 },
@@ -7920,6 +8445,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 126,
 	},
 	{
 		.productIds			= { 0x12d1, 0x0, 0x0 },
@@ -7927,14 +8453,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x876b44d9,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"MTR3CMOS10300KMA",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 260,
 	},
 	{
 		.productIds			= { 0x12d2, 0x0, 0x0 },
@@ -7942,14 +8469,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x876b44d9,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"MTR3CMOS10300KMA (USB2)",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 121,
 	},
 	{
 		.productIds			= { 0x12d4, 0x0, 0x0 },
@@ -7965,6 +8493,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 271,
 	},
 	{
 		.productIds			= { 0x12d5, 0x0, 0x0 },
@@ -7980,6 +8509,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 272,
 	},
 	{
 		.productIds			= { 0x12d6, 0x0, 0x0 },
@@ -7995,6 +8525,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 122,
 	},
 	{
 		.productIds			= { 0x12d7, 0x0, 0x0 },
@@ -8010,6 +8541,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 123,
 	},
 	{
 		.productIds			= { 0x12d8, 0x0, 0x0 },
@@ -8025,6 +8557,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 263,
 	},
 	{
 		.productIds			= { 0x12d9, 0x0, 0x0 },
@@ -8040,6 +8573,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 273,
 	},
 	{
 		.productIds			= { 0x12da, 0x0, 0x0 },
@@ -8055,6 +8589,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 264,
 	},
 	{
 		.productIds			= { 0x12db, 0x0, 0x0 },
@@ -8070,6 +8605,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 265,
 	},
 	{
 		.productIds			= { 0x12de, 0x0, 0x0 },
@@ -8085,6 +8621,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 267,
 	},
 	{
 		.productIds			= { 0x12df, 0x0, 0x0 },
@@ -8100,6 +8637,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 274,
 	},
 	{
 		.productIds			= { 0x12e0, 0x0, 0x0 },
@@ -8115,6 +8653,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 268,
 	},
 	{
 		.productIds			= { 0x12e1, 0x0, 0x0 },
@@ -8130,6 +8669,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 269,
 	},
 	{
 		.productIds			= { 0x12e2, 0x0, 0x0 },
@@ -8145,6 +8685,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 275,
 	},
 	{
 		.productIds			= { 0x12e3, 0x0, 0x0 },
@@ -8160,6 +8701,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 128,
 	},
 	{
 		.productIds			= { 0x12e4, 0x0, 0x0 },
@@ -8175,6 +8717,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			"StarShoot G24Color",
 		},
+	.functionGroup		= 276,
 	},
 	{
 		.productIds			= { 0x12e5, 0x0, 0x0 },
@@ -8190,6 +8733,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			"StarShoot G24Color (USB2)",
 		},
+	.functionGroup		= 277,
 	},
 	{
 		.productIds			= { 0x12e6, 0x0, 0x0 },
@@ -8205,6 +8749,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 130,
 	},
 	{
 		.productIds			= { 0x12e7, 0x0, 0x0 },
@@ -8220,6 +8765,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 131,
 	},
 	{
 		.productIds			= { 0x12e8, 0x0, 0x0 },
@@ -8227,14 +8773,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x180875f84c9,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"MAX62AC",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 132,
 	},
 	{
 		.productIds			= { 0x12e9, 0x0, 0x0 },
@@ -8242,14 +8789,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x180875f84c9,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"MAX62AC (USB2)",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 133,
 	},
 	{
 		.productIds			= { 0x12ea, 0x0, 0x0 },
@@ -8265,6 +8813,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 255,
 	},
 	{
 		.productIds			= { 0x12eb, 0x0, 0x0 },
@@ -8280,6 +8829,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 256,
 	},
 	{
 		.productIds			= { 0x12ee, 0x0, 0x0 },
@@ -8295,6 +8845,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 270,
 	},
 	{
 		.productIds			= { 0x12ef, 0x0, 0x0 },
@@ -8310,6 +8861,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 278,
 	},
 	{
 		.productIds			= { 0x12f0, 0x0, 0x0 },
@@ -8317,14 +8869,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x88871b24d9,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"MAX04BM",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 260,
 	},
 	{
 		.productIds			= { 0x12f1, 0x0, 0x0 },
@@ -8332,14 +8885,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x88871b24d9,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"MAX04BM (USB2)",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 121,
 	},
 	{
 		.productIds			= { 0x12f4, 0x0, 0x0 },
@@ -8355,6 +8909,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 272,
 	},
 	{
 		.productIds			= { 0x12f5, 0x0, 0x0 },
@@ -8370,6 +8925,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 122,
 	},
 	{
 		.productIds			= { 0x12f6, 0x0, 0x0 },
@@ -8385,6 +8941,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 123,
 	},
 	{
 		.productIds			= { 0x12f7, 0x0, 0x0 },
@@ -8400,6 +8957,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 263,
 	},
 	{
 		.productIds			= { 0x12fa, 0x0, 0x0 },
@@ -8407,14 +8965,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x887182079,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"BigEye4200KMC",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 265,
 	},
 	{
 		.productIds			= { 0x12fb, 0x0, 0x0 },
@@ -8422,14 +8981,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x887182079,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"BigEye4200KMC (USB2)",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 266,
 	},
 	{
 		.productIds			= { 0x12fc, 0x0, 0x0 },
@@ -8445,6 +9005,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 127,
 	},
 	{
 		.productIds			= { 0x12fd, 0x0, 0x0 },
@@ -8460,6 +9021,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 267,
 	},
 	{
 		.productIds			= { 0x12fe, 0x0, 0x0 },
@@ -8475,6 +9037,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 274,
 	},
 	{
 		.productIds			= { 0x12ff, 0x0, 0x0 },
@@ -8490,6 +9053,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 279,
 	},
 	{
 		.productIds			= { 0x1300, 0x0, 0x0 },
@@ -8505,6 +9069,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 148,
 	},
 	{
 		.productIds			= { 0x1301, 0x0, 0x0 },
@@ -8520,6 +9085,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 149,
 	},
 	{
 		.productIds			= { 0x1302, 0x0, 0x0 },
@@ -8535,6 +9101,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 150,
 	},
 	{
 		.productIds			= { 0x1303, 0x0, 0x0 },
@@ -8550,6 +9117,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 151,
 	},
 	{
 		.productIds			= { 0x1304, 0x0, 0x0 },
@@ -8565,6 +9133,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 152,
 	},
 	{
 		.productIds			= { 0x1305, 0x0, 0x0 },
@@ -8580,6 +9149,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 153,
 	},
 	{
 		.productIds			= { 0x1310, 0x0, 0x0 },
@@ -8595,6 +9165,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 137,
 	},
 	{
 		.productIds			= { 0x1311, 0x0, 0x0 },
@@ -8610,6 +9181,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 138,
 	},
 	{
 		.productIds			= { 0x1312, 0x0, 0x0 },
@@ -8617,14 +9189,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x83042449,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"E3ISPM32000KPA",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 139,
 	},
 	{
 		.productIds			= { 0x1313, 0x0, 0x0 },
@@ -8632,14 +9205,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x83042449,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"E3ISPM32000KPA (USB2)",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 140,
 	},
 	{
 		.productIds			= { 0x1314, 0x0, 0x0 },
@@ -8647,14 +9221,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x87044449,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"E3ISPM08000KPA",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 141,
 	},
 	{
 		.productIds			= { 0x1315, 0x0, 0x0 },
@@ -8662,14 +9237,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x87044449,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"E3ISPM08000KPA (USB2)",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 142,
 	},
 	{
 		.productIds			= { 0x1316, 0x0, 0x0 },
@@ -8677,14 +9253,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x4083188059,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"IUC26000KMA",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 143,
 	},
 	{
 		.productIds			= { 0x1317, 0x0, 0x0 },
@@ -8692,14 +9269,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x4083188059,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"IUC26000KMA (USB2)",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 144,
 	},
 	{
 		.productIds			= { 0x1318, 0x0, 0x0 },
@@ -8707,14 +9285,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x876f24c9,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"MTR3CMOS10300KPA",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 165,
 	},
 	{
 		.productIds			= { 0x1319, 0x0, 0x0 },
@@ -8722,14 +9301,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x876f24c9,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"MTR3CMOS10300KPA (USB2)",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 166,
 	},
 	{
 		.productIds			= { 0x131a, 0x0, 0x0 },
@@ -8737,14 +9317,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x50831c2449,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"IUA5000KPA",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 280,
 	},
 	{
 		.productIds			= { 0x131b, 0x0, 0x0 },
@@ -8752,14 +9333,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x50831c2449,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"IUA5000KPA (USB2)",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 281,
 	},
 	{
 		.productIds			= { 0x1322, 0x0, 0x0 },
@@ -8767,14 +9349,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x83042449,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"E3ISPM45000KPA",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 151,
 	},
 	{
 		.productIds			= { 0x1323, 0x0, 0x0 },
@@ -8782,14 +9365,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x83042449,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"E3ISPM45000KPA (USB2)",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 152,
 	},
 	{
 		.productIds			= { 0x1324, 0x0, 0x0 },
@@ -8797,14 +9381,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x83042449,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"E3ISPM32000KPAV2",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 153,
 	},
 	{
 		.productIds			= { 0x1325, 0x0, 0x0 },
@@ -8812,14 +9397,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x83042449,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"E3ISPM32000KPAV2 (USB2)",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 154,
 	},
 	{
 		.productIds			= { 0x1328, 0x0, 0x0 },
@@ -8827,14 +9413,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x83042041,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"E3ISPM20000KPC",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 160,
 	},
 	{
 		.productIds			= { 0x1329, 0x0, 0x0 },
@@ -8842,14 +9429,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x83042041,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"E3ISPM20000KPC (USB2)",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 161,
 	},
 	{
 		.productIds			= { 0x132a, 0x0, 0x0 },
@@ -8857,14 +9445,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x80000019,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"ECMOS00500KMA",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 157,
 	},
 	{
 		.productIds			= { 0x132b, 0x0, 0x0 },
@@ -8872,14 +9461,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x83042041,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"E3ISPM12000KPB",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 158,
 	},
 	{
 		.productIds			= { 0x132c, 0x0, 0x0 },
@@ -8887,14 +9477,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x83042041,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"E3ISPM12000KPB (USB2)",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 159,
 	},
 	{
 		.productIds			= { 0x1330, 0x0, 0x0 },
@@ -8902,14 +9493,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x81042449,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"BigEye10000KPA",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 138,
 	},
 	{
 		.productIds			= { 0x1331, 0x0, 0x0 },
@@ -8917,14 +9509,15 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.matchAltMeade	= 0,
 		.capabilities		= 0x81042449,
 		.name						= {
-			NULL,
-			NULL,
-			NULL,
-			NULL,
 			"BigEye10000KPA (USB2)",
 			NULL,
 			NULL,
+			NULL,
+			NULL,
+			NULL,
+			NULL,
 		},
+	.functionGroup		= 139,
 	},
 	{
 		.productIds			= { 0x2106, 0x1088, 0x0 },
@@ -8940,6 +9533,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 282,
 	},
 	{
 		.productIds			= { 0x2107, 0x109c, 0x0 },
@@ -8955,6 +9549,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 283,
 	},
 	{
 		.productIds			= { 0x3008, 0x0, 0x0 },
@@ -8964,12 +9559,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS2.3PLUS",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 284,
 	},
 	{
 		.productIds			= { 0x300d, 0x0, 0x0 },
@@ -8979,12 +9575,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS2.3PLUS (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 285,
 	},
 	{
 		.productIds			= { 0x3010, 0x0, 0x0 },
@@ -9000,6 +9597,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 148,
 	},
 	{
 		.productIds			= { 0x3014, 0x3b14, 0x0 },
@@ -9015,6 +9613,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 152,
 	},
 	{
 		.productIds			= { 0x3016, 0x0, 0x0 },
@@ -9030,6 +9629,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 154,
 	},
 	{
 		.productIds			= { 0x3018, 0x0, 0x0 },
@@ -9045,6 +9645,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 170,
 	},
 	{
 		.productIds			= { 0x3107, 0x0, 0x0 },
@@ -9054,12 +9655,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS1.2",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 286,
 	},
 	{
 		.productIds			= { 0x310b, 0x0, 0x0 },
@@ -9069,12 +9671,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS6.3",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 287,
 	},
 	{
 		.productIds			= { 0x310c, 0x0, 0x0 },
@@ -9084,12 +9687,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS1.2 (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 288,
 	},
 	{
 		.productIds			= { 0x3110, 0x0, 0x0 },
@@ -9099,12 +9703,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS6.3 (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 289,
 	},
 	{
 		.productIds			= { 0x3310, 0x0, 0x0 },
@@ -9120,6 +9725,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 97,
 	},
 	{
 		.productIds			= { 0x3312, 0x0, 0x0 },
@@ -9135,6 +9741,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 233,
 	},
 	{
 		.productIds			= { 0x3314, 0x0, 0x0 },
@@ -9150,6 +9757,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 88,
 	},
 	{
 		.productIds			= { 0x3510, 0x0, 0x3511 },
@@ -9165,6 +9773,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 73,
 	},
 	{
 		.productIds			= { 0x3723, 0x0, 0x0 },
@@ -9174,12 +9783,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			"E3CMOS02300KPA",
 			NULL,
+			NULL,
 			"SkyRaider 2.3",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 100,
 	},
 	{
 		.productIds			= { 0x3731, 0x0, 0x0 },
@@ -9195,6 +9805,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 290,
 	},
 	{
 		.productIds			= { 0x3850, 0x0, 0x0 },
@@ -9210,6 +9821,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 152,
 	},
 	{
 		.productIds			= { 0x3bb4, 0x0, 0x0 },
@@ -9225,6 +9837,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 291,
 	},
 	{
 		.productIds			= { 0x4000, 0x0, 0x0 },
@@ -9240,6 +9853,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 292,
 	},
 	{
 		.productIds			= { 0x4001, 0x0, 0x0 },
@@ -9255,6 +9869,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 293,
 	},
 	{
 		.productIds			= { 0x4002, 0x0, 0x0 },
@@ -9270,6 +9885,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 294,
 	},
 	{
 		.productIds			= { 0x4003, 0x0, 0x0 },
@@ -9285,6 +9901,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 295,
 	},
 	{
 		.productIds			= { 0x4004, 0x0, 0x0 },
@@ -9300,6 +9917,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 296,
 	},
 	{
 		.productIds			= { 0x4005, 0x0, 0x0 },
@@ -9315,6 +9933,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 297,
 	},
 	{
 		.productIds			= { 0x4006, 0x0, 0x0 },
@@ -9330,6 +9949,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 282,
 	},
 	{
 		.productIds			= { 0x4007, 0x0, 0x0 },
@@ -9345,6 +9965,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 283,
 	},
 	{
 		.productIds			= { 0x4008, 0x0, 0x0 },
@@ -9360,6 +9981,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 298,
 	},
 	{
 		.productIds			= { 0x4009, 0x0, 0x0 },
@@ -9375,6 +9997,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 299,
 	},
 	{
 		.productIds			= { 0x400a, 0x0, 0x0 },
@@ -9390,6 +10013,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 300,
 	},
 	{
 		.productIds			= { 0x400b, 0x0, 0x0 },
@@ -9405,6 +10029,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 301,
 	},
 	{
 		.productIds			= { 0x400c, 0x0, 0x0 },
@@ -9420,6 +10045,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 302,
 	},
 	{
 		.productIds			= { 0x400d, 0x0, 0x0 },
@@ -9435,6 +10061,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 303,
 	},
 	{
 		.productIds			= { 0x4010, 0x0, 0x0 },
@@ -9450,6 +10077,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 304,
 	},
 	{
 		.productIds			= { 0x4014, 0x4b14, 0x0 },
@@ -9465,6 +10093,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 305,
 	},
 	{
 		.productIds			= { 0x4016, 0x0, 0x0 },
@@ -9480,6 +10109,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 306,
 	},
 	{
 		.productIds			= { 0x4018, 0x0, 0x0 },
@@ -9495,6 +10125,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 307,
 	},
 	{
 		.productIds			= { 0x4020, 0x0, 0x0 },
@@ -9510,6 +10141,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 293,
 	},
 	{
 		.productIds			= { 0x4021, 0x0, 0x0 },
@@ -9525,6 +10157,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 294,
 	},
 	{
 		.productIds			= { 0x4310, 0x0, 0x0 },
@@ -9540,6 +10173,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 308,
 	},
 	{
 		.productIds			= { 0x4312, 0x0, 0x0 },
@@ -9555,6 +10189,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 309,
 	},
 	{
 		.productIds			= { 0x4314, 0x0, 0x0 },
@@ -9570,6 +10205,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 310,
 	},
 	{
 		.productIds			= { 0x4510, 0x0, 0x4511 },
@@ -9585,6 +10221,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 311,
 	},
 	{
 		.productIds			= { 0x4723, 0x0, 0x0 },
@@ -9594,12 +10231,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			"E3CMOS02300KPA (USB2)",
 			NULL,
+			NULL,
 			"SkyRaider 2.3 (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 312,
 	},
 	{
 		.productIds			= { 0x4731, 0x0, 0x0 },
@@ -9615,6 +10253,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 313,
 	},
 	{
 		.productIds			= { 0x4850, 0x0, 0x0 },
@@ -9630,6 +10269,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 305,
 	},
 	{
 		.productIds			= { 0x4bb4, 0x0, 0x0 },
@@ -9645,6 +10285,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 314,
 	},
 	{
 		.productIds			= { 0x5002, 0x0, 0x0 },
@@ -9660,6 +10301,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 87,
 	},
 	{
 		.productIds			= { 0x5003, 0x0, 0x0 },
@@ -9675,6 +10317,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 233,
 	},
 	{
 		.productIds			= { 0x6010, 0x0, 0x0 },
@@ -9690,6 +10333,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 315,
 	},
 	{
 		.productIds			= { 0x6014, 0x0, 0x0 },
@@ -9705,6 +10349,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 316,
 	},
 	{
 		.productIds			= { 0x6035, 0x0, 0x0 },
@@ -9720,6 +10365,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 317,
 	},
 	{
 		.productIds			= { 0x6121, 0x0, 0x0 },
@@ -9735,6 +10381,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 318,
 	},
 	{
 		.productIds			= { 0x6122, 0x0, 0x0 },
@@ -9750,6 +10397,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 319,
 	},
 	{
 		.productIds			= { 0x6130, 0x0, 0x0 },
@@ -9765,6 +10413,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 294,
 	},
 	{
 		.productIds			= { 0x6131, 0x0, 0x0 },
@@ -9780,6 +10429,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 295,
 	},
 	{
 		.productIds			= { 0x6200, 0x0, 0x0 },
@@ -9795,6 +10445,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 315,
 	},
 	{
 		.productIds			= { 0x6201, 0x0, 0x0 },
@@ -9810,6 +10461,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 311,
 	},
 	{
 		.productIds			= { 0x6310, 0x0, 0x0 },
@@ -9825,6 +10477,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 320,
 	},
 	{
 		.productIds			= { 0x6510, 0x6512, 0x0 },
@@ -9840,6 +10493,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 294,
 	},
 	{
 		.productIds			= { 0x6511, 0x0, 0x0 },
@@ -9855,6 +10509,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 295,
 	},
 	{
 		.productIds			= { 0x6518, 0x0, 0x0 },
@@ -9870,6 +10525,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 321,
 	},
 	{
 		.productIds			= { 0x6800, 0x0, 0x0 },
@@ -9885,9 +10541,10 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 322,
 	},
 	{
-		.productIds			= { 0x6801, 0x0, 0x0 },
+		.productIds			= { 0x6801, 0x7808, 0x0 },
 		.matchOldAltair	= 0,
 		.matchAltMeade	= 0,
 		.capabilities		= 0x80000029,
@@ -9900,6 +10557,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 309,
 	},
 	{
 		.productIds			= { 0x6900, 0x0, 0x0 },
@@ -9915,6 +10573,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 318,
 	},
 	{
 		.productIds			= { 0x6901, 0x0, 0x0 },
@@ -9930,6 +10589,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 319,
 	},
 	{
 		.productIds			= { 0x6b10, 0x0, 0x0 },
@@ -9945,6 +10605,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 78,
 	},
 	{
 		.productIds			= { 0x7140, 0x0, 0x0 },
@@ -9960,6 +10621,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 94,
 	},
 	{
 		.productIds			= { 0x7141, 0x0, 0x0 },
@@ -9975,6 +10637,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 238,
 	},
 	{
 		.productIds			= { 0x8031, 0x0, 0x0 },
@@ -9990,6 +10653,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 295,
 	},
 	{
 		.productIds			= { 0x8044, 0x0, 0x0 },
@@ -10005,6 +10669,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 306,
 	},
 	{
 		.productIds			= { 0x8045, 0x0, 0x0 },
@@ -10020,6 +10685,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 323,
 	},
 	{
 		.productIds			= { 0x8046, 0x0, 0x0 },
@@ -10029,12 +10695,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			"EXCCD00440KPB",
 			NULL,
+			NULL,
 			"SkyRaider 440DSC",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 307,
 	},
 	{
 		.productIds			= { 0x8047, 0x0, 0x0 },
@@ -10044,12 +10711,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			"EXCCD00440KMB",
 			NULL,
+			NULL,
 			"SkyRaider 440DSM",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 324,
 	},
 	{
 		.productIds			= { 0x804a, 0x0, 0x0 },
@@ -10059,12 +10727,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			"EXCCD00440KPB",
 			NULL,
+			NULL,
 			"SkyRaider 440DSC",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 325,
 	},
 	{
 		.productIds			= { 0x804b, 0x0, 0x0 },
@@ -10080,6 +10749,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 326,
 	},
 	{
 		.productIds			= { 0x804c, 0x0, 0x0 },
@@ -10089,12 +10759,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			"EXCCD00440KMB",
 			NULL,
+			NULL,
 			"SkyRaider 440DSM",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 327,
 	},
 	{
 		.productIds			= { 0x804d, 0x0, 0x0 },
@@ -10110,6 +10781,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 328,
 	},
 	{
 		.productIds			= { 0x805a, 0x0, 0x0 },
@@ -10119,12 +10791,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			"EXCCD00440KPB",
 			NULL,
+			NULL,
 			"SkyRaider 440DSC",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 303,
 	},
 	{
 		.productIds			= { 0x8080, 0x0, 0x0 },
@@ -10140,6 +10813,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 305,
 	},
 	{
 		.productIds			= { 0x8140, 0x0, 0x0 },
@@ -10155,6 +10829,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 329,
 	},
 	{
 		.productIds			= { 0x8141, 0x0, 0x0 },
@@ -10170,6 +10845,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 330,
 	},
 	{
 		.productIds			= { 0x8142, 0x0, 0x0 },
@@ -10185,6 +10861,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 316,
 	},
 	{
 		.productIds			= { 0x8146, 0x0, 0x0 },
@@ -10200,6 +10877,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 331,
 	},
 	{
 		.productIds			= { 0x8148, 0x0, 0x0 },
@@ -10215,6 +10893,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 332,
 	},
 	{
 		.productIds			= { 0x8149, 0x0, 0x0 },
@@ -10230,6 +10909,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 333,
 	},
 	{
 		.productIds			= { 0x814d, 0x0, 0x0 },
@@ -10245,6 +10925,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 334,
 	},
 	{
 		.productIds			= { 0x814e, 0x0, 0x0 },
@@ -10260,6 +10941,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 335,
 	},
 	{
 		.productIds			= { 0x814f, 0x0, 0x0 },
@@ -10275,6 +10957,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 336,
 	},
 	{
 		.productIds			= { 0x8200, 0x0, 0x0 },
@@ -10290,6 +10973,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 293,
 	},
 	{
 		.productIds			= { 0x8206, 0x0, 0x0 },
@@ -10305,6 +10989,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 283,
 	},
 	{
 		.productIds			= { 0x8306, 0x0, 0x0 },
@@ -10320,6 +11005,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 337,
 	},
 	{
 		.productIds			= { 0x8307, 0x0, 0x0 },
@@ -10335,6 +11021,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 338,
 	},
 	{
 		.productIds			= { 0x8309, 0x0, 0x0 },
@@ -10350,6 +11037,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 339,
 	},
 	{
 		.productIds			= { 0x830a, 0x0, 0x0 },
@@ -10365,6 +11053,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 340,
 	},
 	{
 		.productIds			= { 0x8311, 0x0, 0x0 },
@@ -10380,6 +11069,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 329,
 	},
 	{
 		.productIds			= { 0x8316, 0x0, 0x0 },
@@ -10395,6 +11085,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 341,
 	},
 	{
 		.productIds			= { 0x8500, 0x0, 0x0 },
@@ -10410,6 +11101,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 311,
 	},
 	{
 		.productIds			= { 0x8506, 0x0, 0x0 },
@@ -10425,6 +11117,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 341,
 	},
 	{
 		.productIds			= { 0x8510, 0x0, 0x0 },
@@ -10440,6 +11133,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 322,
 	},
 	{
 		.productIds			= { 0x8516, 0x0, 0x0 },
@@ -10455,6 +11149,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 338,
 	},
 	{
 		.productIds			= { 0x8520, 0x0, 0x0 },
@@ -10470,6 +11165,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 329,
 	},
 	{
 		.productIds			= { 0x8526, 0x0, 0x0 },
@@ -10485,6 +11181,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 331,
 	},
 	{
 		.productIds			= { 0x8527, 0x0, 0x0 },
@@ -10500,6 +11197,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 342,
 	},
 	{
 		.productIds			= { 0x9141, 0x0, 0x0 },
@@ -10515,6 +11213,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 140,
 	},
 	{
 		.productIds			= { 0x9142, 0x0, 0x0 },
@@ -10530,6 +11229,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 141,
 	},
 	{
 		.productIds			= { 0x9143, 0x0, 0x0 },
@@ -10545,6 +11245,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 142,
 	},
 	{
 		.productIds			= { 0x9146, 0x0, 0x0 },
@@ -10560,6 +11261,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 165,
 	},
 	{
 		.productIds			= { 0x9520, 0x0, 0x0 },
@@ -10575,6 +11277,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 139,
 	},
 	{
 		.productIds			= { 0xa010, 0x0, 0x0 },
@@ -10590,6 +11293,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 89,
 	},
 	{
 		.productIds			= { 0xa014, 0x0, 0x0 },
@@ -10605,6 +11309,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 99,
 	},
 	{
 		.productIds			= { 0xa131, 0x0, 0x0 },
@@ -10620,6 +11325,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 170,
 	},
 	{
 		.productIds			= { 0xa310, 0x0, 0x0 },
@@ -10635,6 +11341,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 143,
 	},
 	{
 		.productIds			= { 0xa312, 0x0, 0x0 },
@@ -10650,6 +11357,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 165,
 	},
 	{
 		.productIds			= { 0xb121, 0x0, 0x0 },
@@ -10658,13 +11366,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x80402219,
 		.name						= {
 			"GCMOS01200KMA",
+			NULL,
 			"GPCAM MT9M034M",
 			"SkyRaider GMTm",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 298,
 	},
 	{
 		.productIds			= { 0xb122, 0x0, 0x0 },
@@ -10673,13 +11382,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x80400209,
 		.name						= {
 			"GCMOS01200KPB",
+			NULL,
 			"GPCAM AR0130C",
 			"SkyRaider Guiderc",
-			NULL,
 			NULL,
 			"GUIDE1200bC",
 			NULL,
 		},
+	.functionGroup		= 343,
 	},
 	{
 		.productIds			= { 0xb123, 0x0, 0x0 },
@@ -10688,13 +11398,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x80402209,
 		.name						= {
 			"GCMOS01200KPB",
+			NULL,
 			"GPCAM AR0130C",
 			"SkyRaider Guiderc",
-			NULL,
 			NULL,
 			"GUIDE1200bC",
 			NULL,
 		},
+	.functionGroup		= 344,
 	},
 	{
 		.productIds			= { 0xb124, 0x0, 0x0 },
@@ -10703,13 +11414,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x80402219,
 		.name						= {
 			"GCMOS01200KMB",
+			NULL,
 			"GPCAM AR0130M",
 			"SkyRaider Guiderm",
-			NULL,
 			NULL,
 			"GUIDE1200bM",
 			NULL,
 		},
+	.functionGroup		= 345,
 	},
 	{
 		.productIds			= { 0xb133, 0x0, 0x0 },
@@ -10719,12 +11431,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			"GCMOS01200KPB",
 			NULL,
-			"SkyRaider Guiderc",
 			NULL,
+			"SkyRaider Guiderc",
 			NULL,
 			"GUIDE1200bC",
 			NULL,
 		},
+	.functionGroup		= 346,
 	},
 	{
 		.productIds			= { 0xb134, 0xb136, 0x0 },
@@ -10733,13 +11446,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x80682219,
 		.name						= {
 			"GCMOS01200KMB",
+			NULL,
 			"GPCAM AR0130M",
 			"SkyRaider Guiderm",
-			NULL,
 			NULL,
 			"GUIDE1200bM",
 			NULL,
 		},
+	.functionGroup		= 347,
 	},
 	{
 		.productIds			= { 0xb135, 0x0b2a, 0x0 },
@@ -10748,13 +11462,14 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.capabilities		= 0x80682219,
 		.name						= {
 			"GCMOS01200KMA",
+			NULL,
 			"GPCAM MT9M034M",
 			"SkyRaider GMTm",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 348,
 	},
 	{
 		.productIds			= { 0xb310, 0x0, 0x0 },
@@ -10770,6 +11485,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 283,
 	},
 	{
 		.productIds			= { 0xc010, 0x0, 0x0 },
@@ -10785,6 +11501,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 349,
 	},
 	{
 		.productIds			= { 0xc014, 0xcb14, 0x0 },
@@ -10800,6 +11517,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 350,
 	},
 	{
 		.productIds			= { 0xc310, 0x0, 0x0 },
@@ -10815,6 +11533,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 98,
 	},
 	{
 		.productIds			= { 0xc312, 0x0, 0x0 },
@@ -10830,6 +11549,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 235,
 	},
 	{
 		.productIds			= { 0xc510, 0x0, 0x0 },
@@ -10845,6 +11565,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 351,
 	},
 	{
 		.productIds			= { 0xc850, 0x0, 0x0 },
@@ -10860,6 +11581,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 350,
 	},
 	{
 		.productIds			= { 0xd010, 0x0, 0x0 },
@@ -10875,6 +11597,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 306,
 	},
 	{
 		.productIds			= { 0xd014, 0xdb14, 0x0 },
@@ -10890,6 +11613,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 352,
 	},
 	{
 		.productIds			= { 0xd2b7, 0x0, 0x0 },
@@ -10899,12 +11623,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS26CTEC",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 353,
 	},
 	{
 		.productIds			= { 0xd2b8, 0x0, 0x0 },
@@ -10914,12 +11639,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS26CTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 354,
 	},
 	{
 		.productIds			= { 0xd2be, 0x0, 0x0 },
@@ -10929,12 +11655,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS26MTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 355,
 	},
 	{
 		.productIds			= { 0xd2bf, 0x0, 0x0 },
@@ -10944,12 +11671,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS26MTEC",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 356,
 	},
 	{
 		.productIds			= { 0xd2e4, 0x0, 0x0 },
@@ -10959,12 +11687,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS24CTEC",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 357,
 	},
 	{
 		.productIds			= { 0xd2e5, 0x0, 0x0 },
@@ -10974,12 +11703,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS24CTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 358,
 	},
 	{
 		.productIds			= { 0xd310, 0x0, 0x0 },
@@ -10995,6 +11725,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 337,
 	},
 	{
 		.productIds			= { 0xd312, 0x0, 0x0 },
@@ -11010,6 +11741,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 359,
 	},
 	{
 		.productIds			= { 0xd510, 0x0, 0x0 },
@@ -11025,6 +11757,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 341,
 	},
 	{
 		.productIds			= { 0xd850, 0x0, 0x0 },
@@ -11040,6 +11773,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 352,
 	},
 	{
 		.productIds			= { 0xe003, 0x0, 0x0 },
@@ -11050,11 +11784,12 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 			NULL,
+			NULL,
 			"Meade LPI-GC",
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 360,
 	},
 	{
 		.productIds			= { 0xe004, 0x0, 0x0 },
@@ -11065,11 +11800,12 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 			NULL,
+			NULL,
 			"Meade LPI-GM",
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 111,
 	},
 	{
 		.productIds			= { 0xe005, 0x0, 0x0 },
@@ -11080,11 +11816,12 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 			NULL,
+			NULL,
 			"Meade LPI-G-Series-2C",
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 361,
 	},
 	{
 		.productIds			= { 0xe007, 0x0, 0x0 },
@@ -11095,11 +11832,12 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 			NULL,
+			NULL,
 			"Meade LPI-GC_Advanced",
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 362,
 	},
 	{
 		.productIds			= { 0xe008, 0x0, 0x0 },
@@ -11110,11 +11848,12 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 			NULL,
+			NULL,
 			"Meade LPI-GC_Advanced (USB2)",
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 363,
 	},
 	{
 		.productIds			= { 0xe009, 0x0, 0x0 },
@@ -11125,11 +11864,12 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 			NULL,
+			NULL,
 			"Meade LPI-GM_Advanced",
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 364,
 	},
 	{
 		.productIds			= { 0xe00a, 0x0, 0x0 },
@@ -11140,11 +11880,12 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 			NULL,
+			NULL,
 			"Meade LPI-GM_Advanced (USB2)",
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 365,
 	},
 	{
 		.productIds			= { 0xe00b, 0x0, 0x0 },
@@ -11155,11 +11896,12 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 			NULL,
+			NULL,
 			"Meade LPI-GC_Advanced",
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 366,
 	},
 	{
 		.productIds			= { 0xe00c, 0x0, 0x0 },
@@ -11170,11 +11912,12 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 			NULL,
+			NULL,
 			"Meade LPI-GC_Advanced (USB2)",
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 367,
 	},
 	{
 		.productIds			= { 0xe00d, 0x0, 0x0 },
@@ -11185,11 +11928,12 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 			NULL,
+			NULL,
 			"Meade LPI-GM_Advanced",
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 368,
 	},
 	{
 		.productIds			= { 0xe00e, 0x0, 0x0 },
@@ -11200,11 +11944,12 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 			NULL,
+			NULL,
 			"Meade LPI-GM_Advanced (USB2)",
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 369,
 	},
 	{
 		.productIds			= { 0xe06b, 0x0, 0x0 },
@@ -11215,11 +11960,12 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 			NULL,
+			NULL,
 			"MEADE DSI_IV_COLOR",
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 370,
 	},
 	{
 		.productIds			= { 0xe06d, 0x0, 0x0 },
@@ -11230,11 +11976,12 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 			NULL,
+			NULL,
 			"MEADE DSI_IV_MONO",
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 371,
 	},
 	{
 		.productIds			= { 0xe075, 0x0, 0x0 },
@@ -11245,11 +11992,12 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 			NULL,
+			NULL,
 			"MEADE DSI_IV_COLOR (USB2)",
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 372,
 	},
 	{
 		.productIds			= { 0xe076, 0x0, 0x0 },
@@ -11260,11 +12008,12 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 			NULL,
+			NULL,
 			"MEADE DSI_IV_MONO (USB2)",
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 373,
 	},
 	{
 		.productIds			= { 0xe077, 0x0, 0x0 },
@@ -11275,11 +12024,12 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 			NULL,
+			NULL,
 			"MEADE DSI_IV_COLOR",
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 374,
 	},
 	{
 		.productIds			= { 0xe078, 0x0, 0x0 },
@@ -11290,11 +12040,12 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 			NULL,
+			NULL,
 			"MEADE DSI_IV_COLOR (USB2)",
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 375,
 	},
 	{
 		.productIds			= { 0xe079, 0x0, 0x0 },
@@ -11305,11 +12056,12 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 			NULL,
+			NULL,
 			"MEADE DSI_IV_MONO",
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 376,
 	},
 	{
 		.productIds			= { 0xe07a, 0x0, 0x0 },
@@ -11320,11 +12072,12 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 			NULL,
+			NULL,
 			"MEADE DSI_IV_MONO (USB2)",
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 377,
 	},
 	{
 		.productIds			= { 0xe217, 0x0, 0x0 },
@@ -11334,12 +12087,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			"G3CMOS02300KPA (USB2)",
 			NULL,
+			NULL,
 			"SkyRaider DS2.3 (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 378,
 	},
 	{
 		.productIds			= { 0xe317, 0x0, 0x0 },
@@ -11349,12 +12103,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			"G3CMOS02300KPA",
 			NULL,
+			NULL,
 			"SkyRaider DS2.3",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 379,
 	},
 	{
 		.productIds			= { 0xf010, 0x0, 0x0 },
@@ -11370,6 +12125,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 317,
 	},
 	{
 		.productIds			= { 0xf014, 0x0, 0x0 },
@@ -11385,6 +12141,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 332,
 	},
 	{
 		.productIds			= { 0xf06d, 0x0, 0x0 },
@@ -11394,12 +12151,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS16MTEC",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 380,
 	},
 	{
 		.productIds			= { 0xf076, 0x0, 0x0 },
@@ -11409,12 +12167,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS16MTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 381,
 	},
 	{
 		.productIds			= { 0xf10b, 0x0, 0x0 },
@@ -11424,12 +12183,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS16C",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 382,
 	},
 	{
 		.productIds			= { 0xf110, 0x0, 0x0 },
@@ -11439,12 +12199,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS16C (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 383,
 	},
 	{
 		.productIds			= { 0xf112, 0x0, 0x0 },
@@ -11454,12 +12215,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS16M",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 384,
 	},
 	{
 		.productIds			= { 0xf113, 0x0, 0x0 },
@@ -11469,12 +12231,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS16M (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 385,
 	},
 	{
 		.productIds			= { 0xf114, 0x0, 0x0 },
@@ -11484,12 +12247,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS16C",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 386,
 	},
 	{
 		.productIds			= { 0xf115, 0x0, 0x0 },
@@ -11499,12 +12263,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS16C (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 387,
 	},
 	{
 		.productIds			= { 0xf116, 0x0, 0x0 },
@@ -11514,12 +12279,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS16M",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 388,
 	},
 	{
 		.productIds			= { 0xf117, 0x0, 0x0 },
@@ -11529,12 +12295,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS16M (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 389,
 	},
 	{
 		.productIds			= { 0xf118, 0x0, 0x0 },
@@ -11544,12 +12311,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS10C",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 390,
 	},
 	{
 		.productIds			= { 0xf119, 0x0, 0x0 },
@@ -11559,12 +12327,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS10C (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 391,
 	},
 	{
 		.productIds			= { 0xf11a, 0x0, 0x0 },
@@ -11574,12 +12343,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS287C",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 392,
 	},
 	{
 		.productIds			= { 0xf11b, 0x0, 0x0 },
@@ -11589,12 +12359,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS287C (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 393,
 	},
 	{
 		.productIds			= { 0xf11c, 0x0, 0x0 },
@@ -11604,12 +12375,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS287M",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 394,
 	},
 	{
 		.productIds			= { 0xf11d, 0x0, 0x0 },
@@ -11619,12 +12391,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS287M (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 395,
 	},
 	{
 		.productIds			= { 0xf11e, 0x0, 0x0 },
@@ -11634,12 +12407,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS10CTEC",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 396,
 	},
 	{
 		.productIds			= { 0xf11f, 0x0, 0x0 },
@@ -11649,12 +12423,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS10CTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 397,
 	},
 	{
 		.productIds			= { 0xf124, 0x0, 0x0 },
@@ -11664,12 +12439,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS10CTEC",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 398,
 	},
 	{
 		.productIds			= { 0xf125, 0x0, 0x0 },
@@ -11679,12 +12455,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS10CTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 399,
 	},
 	{
 		.productIds			= { 0xf126, 0x0, 0x0 },
@@ -11694,12 +12471,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS16CTEC",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 400,
 	},
 	{
 		.productIds			= { 0xf127, 0x0, 0x0 },
@@ -11709,12 +12487,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS16CTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 401,
 	},
 	{
 		.productIds			= { 0xf128, 0x0, 0x0 },
@@ -11724,12 +12503,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS16CTEC",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 402,
 	},
 	{
 		.productIds			= { 0xf129, 0x0, 0x0 },
@@ -11739,12 +12519,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS16CTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 403,
 	},
 	{
 		.productIds			= { 0xf12a, 0x0, 0x0 },
@@ -11754,12 +12535,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS10C",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 382,
 	},
 	{
 		.productIds			= { 0xf12b, 0x0, 0x0 },
@@ -11769,12 +12551,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS10C (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 404,
 	},
 	{
 		.productIds			= { 0xf130, 0x0, 0x0 },
@@ -11790,6 +12573,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 298,
 	},
 	{
 		.productIds			= { 0xf132, 0x0, 0x0 },
@@ -11805,6 +12589,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 321,
 	},
 	{
 		.productIds			= { 0xf1f6, 0x0, 0x0 },
@@ -11814,12 +12599,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS16MTEC",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 354,
 	},
 	{
 		.productIds			= { 0xf1f7, 0x0, 0x0 },
@@ -11829,12 +12615,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS16MTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 405,
 	},
 	{
 		.productIds			= { 0xf1f8, 0x0, 0x0 },
@@ -11844,12 +12631,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS432CTEC",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 406,
 	},
 	{
 		.productIds			= { 0xf1f9, 0x0, 0x0 },
@@ -11859,12 +12647,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS432CTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 407,
 	},
 	{
 		.productIds			= { 0xf1fa, 0x0, 0x0 },
@@ -11874,12 +12663,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS432MTEC",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 408,
 	},
 	{
 		.productIds			= { 0xf1fb, 0x0, 0x0 },
@@ -11889,12 +12679,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			NULL,
 			NULL,
+			NULL,
 			"SkyRaider DS432MTEC (USB2)",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 409,
 	},
 	{
 		.productIds			= { 0xf200, 0x0, 0x0 },
@@ -11910,6 +12701,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 317,
 	},
 	{
 		.productIds			= { 0xf310, 0x0, 0x0 },
@@ -11925,6 +12717,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 323,
 	},
 	{
 		.productIds			= { 0xf312, 0x0, 0x0 },
@@ -11934,12 +12727,13 @@ cameraData cameras[ MAX_CAMERAS ] =
 		.name						= {
 			"LCMOS03100KPB",
 			NULL,
+			NULL,
 			"SkyRaider SolarSystem3c",
 			NULL,
 			NULL,
 			NULL,
-			NULL,
 		},
+	.functionGroup		= 410,
 	},
 	{
 		.productIds			= { 0xf510, 0x0, 0x0 },
@@ -11955,6 +12749,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 298,
 	},
 	{
 		.productIds			= { 0xf800, 0x0, 0x0 },
@@ -11970,6 +12765,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 338,
 	},
 	{
 		.productIds			= { 0xf900, 0x0, 0x0 },
@@ -11985,6 +12781,7 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 307,
 	},
 	{
 		.productIds			= { 0xfc15, 0x0, 0x0 },
@@ -12000,5 +12797,6 @@ cameraData cameras[ MAX_CAMERAS ] =
 			NULL,
 			NULL,
 		},
+	.functionGroup		= 411,
 	},
 };

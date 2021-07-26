@@ -34,10 +34,10 @@
 #include <touptek/defines.h>
 
 #define	OA_BRAND_TOUPCAM			0
-#define	OA_BRAND_ALTAIRCAM		1
-#define	OA_BRAND_MALLINCAM		2
-#define	OA_BRAND_MEADECAM			3
-#define	OA_BRAND_NNCAM				4
+#define	OA_BRAND_NNCAM				1
+#define	OA_BRAND_ALTAIRCAM		2
+#define	OA_BRAND_MALLINCAM		3
+#define	OA_BRAND_MEADECAM			4
 #define	OA_BRAND_OMEGONPROCAM	5
 #define	OA_BRAND_STARSHOOTG		6
 
