@@ -32,5 +32,6 @@
 
 extern HRESULT	getBlackBalance ( const cameraCtx*, unsigned short bal[3] );
 extern HRESULT	getContrast ( const cameraCtx*, int* );
+extern HRESULT	getGamma ( const cameraCtx*, int* );
 
 #endif	/* GET_SETTINGS_H */

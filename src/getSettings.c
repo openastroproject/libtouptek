@@ -43,6 +43,18 @@ getContrast ( const cameraCtx* ctx, int* pContrast )
 
 
 HRESULT
+getGamma ( const cameraCtx* ctx, int* pGamma )
+{
+	// FIX ME -- may not be supported for all cameras
+
+	cameraSettings*		settings = ctx->settings;
+
+	*pGamma = settings->gamma;
+	return S_OK;
+}
+
+
+HRESULT
 getBlackBalance ( const cameraCtx* ctx, unsigned short bal[3] )
 {
 	// FIX ME -- may not be supported for all cameras
