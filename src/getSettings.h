@@ -29,7 +29,6 @@
 #define GET_SETTINGS_H
 
 #include "cameras.h"
-#include "internals.h"
 
 extern HRESULT	getBlackBalance ( const cameraCtx*, unsigned short bal[3] );
 

@@ -31,7 +31,6 @@
 
 #include <toupcam.h>
 
-#include "cameras.h"
 #include "internals.h"
 
 

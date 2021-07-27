@@ -48,10 +48,6 @@
 #define	VID_OLD_ALTAIR				0x16d0
 #define	VID_ALT_MEADE					0x0549
 
-typedef struct cameraCtx {
-	cameraSettings*		settings;
-} cameraCtx;
-
 extern unsigned oaTouptek_EnumV2 ( uint8_t, oaTouptekDeviceV2* );
 
 extern unsigned enumerate ( uint8_t, oaTouptekDeviceV2*, unsigned short,
