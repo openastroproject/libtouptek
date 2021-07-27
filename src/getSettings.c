@@ -30,7 +30,17 @@
 #include "getSettings.h"
 
 
-int
+HRESULT
+getContrast ( const cameraCtx* ctx, int* pContrast )
+{
+	cameraSettings*		settings = ctx->settings;
+
+	*pContrast = settings->contrast;
+	return S_OK;
+}
+
+
+HRESULT
 getBlackBalance ( const cameraCtx* ctx, unsigned short bal[3] )
 {
 	cameraSettings*		settings = ctx->settings;
