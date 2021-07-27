@@ -49,6 +49,7 @@ typedef struct cameraData {
 } cameraData;
 
 typedef struct cameraSettings {
+	int								contrast;
 	unsigned short		blackBalanceRed;
 	unsigned short		blackBalanceGreen;
 	unsigned short		blackBalanceBlue;
@@ -83,7 +84,7 @@ typedef struct cameraFuncs {
 	HRESULT	( *getBlackBalance )( const cameraCtx*, unsigned short bal[3]);
 	HRESULT	( *getBrightness )();
 	HRESULT	( *getChrome )();
-	HRESULT	( *getContrast )();
+	HRESULT	( *getContrast )( const cameraCtx*, int* );
 	HRESULT	( *geteSize )();
 	HRESULT	( *getExpoAGain )();
 	HRESULT	( *getExpoAGainRange )();
