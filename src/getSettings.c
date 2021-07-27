@@ -33,6 +33,8 @@
 HRESULT
 getContrast ( const cameraCtx* ctx, int* pContrast )
 {
+	// FIX ME -- may not be supported for all cameras
+
 	cameraSettings*		settings = ctx->settings;
 
 	*pContrast = settings->contrast;
@@ -43,6 +45,8 @@ getContrast ( const cameraCtx* ctx, int* pContrast )
 HRESULT
 getBlackBalance ( const cameraCtx* ctx, unsigned short bal[3] )
 {
+	// FIX ME -- may not be supported for all cameras
+
 	cameraSettings*		settings = ctx->settings;
 
 	bal[0] = settings->blackBalanceRed;
