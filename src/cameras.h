@@ -51,6 +51,7 @@ typedef struct cameraData {
 typedef struct cameraSettings {
 	int								contrast;
 	int								gamma;
+	int								flipState;
 	unsigned short		blackBalanceRed;
 	unsigned short		blackBalanceGreen;
 	unsigned short		blackBalanceBlue;
