@@ -43,3 +43,10 @@ Toupcam_get_BlackBalance ( TT_HANDLE handle, unsigned short bal[3] )
 {
 	return getBlackBalance ( handle, bal );
 }
+
+
+HRESULT
+Toupcam_get_Contrast ( TT_HANDLE handle, int* pContrast )
+{
+	return getContrast ( handle, pContrast );
+}
