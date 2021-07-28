@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- * toupcam.c -- List Toupcam cameras that are connected to the system
+ * toupcam.c -- Toupcam interface
  *
  * Copyright 2021
  *   James Fidell (james@openastroproject.org)
@@ -28,10 +28,18 @@
 #include <toupcam.h>
 
 #include "internals.h"
+#include "getSettings.h"
 
 
 unsigned
 Toupcam_EnumV2 ( oaTouptekDeviceV2 deviceList[ OA_TOUPTEK_MAX ])
 {
 	return oaTouptek_EnumV2 ( OA_BRAND_TOUPCAM, deviceList );
+}
+
+
+HRESULT
+Toupcam_get_BlackBalance ( TT_HANDLE handle, unsigned short bal[3] )
+{
+	return getBlackBalance ( handle, bal );
 }
