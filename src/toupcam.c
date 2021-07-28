@@ -57,3 +57,10 @@ Toupcam_get_Gamma ( TT_HANDLE handle, int* pGamma )
 {
 	return getGamma ( handle, pGamma );
 }
+
+
+HRESULT
+Toupcam_get_HFlip ( TT_HANDLE handle, int* pHFlip )
+{
+	return getHFlip ( handle, pHFlip );
+}
