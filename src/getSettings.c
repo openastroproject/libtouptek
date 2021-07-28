@@ -65,6 +65,16 @@ getHFlip ( const cameraCtx* ctx, int* pState )
 
 
 HRESULT
+getVFlip ( const cameraCtx* ctx, int* pState )
+{
+	cameraSettings*		settings = ctx->settings;
+
+	*pState = ( settings->flipState & 0x2 ) ? 1 : 0;
+	return S_OK;
+}
+
+
+HRESULT
 getBlackBalance ( const cameraCtx* ctx, unsigned short bal[3] )
 {
 	// FIX ME -- may not be supported for all cameras
