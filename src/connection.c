@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- * connection.c -- Handle setting up/tearing down connections to cameras
+ * connection.c -- Handle opening and closing cameras
  *
  * Copyright 2021
  *   James Fidell (james@openastroproject.org)
@@ -24,52 +24,85 @@
  * <http://www.gnu.org/licenses/>.
  *
  *****************************************************************************/
- 
+
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 #include <libusb-1.0/libusb.h>
 
-#include <toupcam.h>
+#include <touptek/defines.h>
+#include <touptek/types.h>
 
+#include "cameras.h"
 #include "internals.h"
+#include "connection.h"
 
 
-void*
-oaTouptek_Open ( uint8_t brand, const char* id )
+static	cameraCtx*		_openCamera ( uint8_t, const char*, unsigned );
+
+
+// Can't just call this one open() :)
+cameraCtx*
+camOpen ( uint8_t brand, const char* id )
 {
-	unsigned								result;
-	libusb_device_handle*		handle;
-	unsigned short					bus, addr, vid, pid;
-
-	if ( id == NULL ) {
-		result = enumerate ( brand, NULL, 0, 0, 0, &handle );
-	} else {
-		if ( sscanf ( id, "tp-%hu-%hu-%hu-%hu", &bus, &addr, &vid, &pid ) != 4 ) {
-			result = 0;
-		} else {
-			result = enumerate ( brand, NULL, bus, addr, 0, &handle );
-		}
-	}
-
-	if ( result ) {
-		return ( void* ) handle;
-	}
-
-	return ( void* ) NULL;
+	return _openCamera ( brand, id, 0 );
 }
 
 
-void*
-oaTouptek_OpenByIndex ( uint8_t brand, unsigned int index )
+cameraCtx*
+OpenByIndex ( uint8_t brand, unsigned idx )
 {
-	unsigned								result;
-	libusb_device_handle*		handle;
+	if ( idx >= OA_TOUPTEK_MAX ) {
+		return NULL;
+	}
+	return _openCamera ( brand, NULL, idx );
+}
 
-	result = enumerate ( brand, NULL, 0, 0, index, &handle );
 
-	if ( result ) {
-		return ( void* ) handle;
+cameraCtx*
+_openCamera ( uint8_t brand, const char* id, unsigned idx )
+{
+	unsigned short				matchBus = 0;
+	unsigned short				matchAddr = 0;
+	unsigned short				matchVid = 0;
+	unsigned short				matchPid = 0;
+	libusb_device_handle*	handle;
+	cameraCtx*						ctx;
+	cameraSettings*				settings;
+	const char*						id2;
+
+	// FIX ME -- we could keep an internal list of opened cameras and prevent
+	// a double open here
+
+	if (( ctx = ( cameraCtx* ) malloc ( sizeof ( cameraCtx ))) == NULL ) {
+		return NULL;
+	}
+	if (( settings = ( cameraSettings* ) malloc ( sizeof ( cameraSettings ))) ==
+			NULL ) {
+		return NULL;
 	}
 
-	return ( void* ) NULL;
+	if ( id != NULL ) {
+		// @ or $ at the start of the id are "special"
+		// @ means use RGB gain mode instead of Temp/Tint for white balance
+		// $ is apparently special, but I don't know what it does yet
+		id2 = id;
+		if ( *id == '@' || *id == '$' ) {
+			id2++;
+		}
+		if ( sscanf ( id2, "tp-%hu-%hu-%hu-%hu", &matchBus, &matchAddr, &matchVid,
+					&matchPid ) != 4 ) {
+			return NULL;
+		}
+	}
+
+	if ( enumerate ( brand, NULL, matchBus, matchAddr, matchVid, matchPid,
+				idx, &handle ) != 1 ) {
+		return NULL;
+	}
+
+	// FIX ME -- lots of setup stuff to do here
+	ctx->handle = handle;
+	ctx->settings = settings;
+	return ctx;
 }
