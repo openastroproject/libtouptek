@@ -51,6 +51,7 @@
 extern unsigned oaTouptek_EnumV2 ( uint8_t, oaTouptekDeviceV2* );
 
 extern unsigned enumerate ( uint8_t, oaTouptekDeviceV2*, unsigned short,
-		unsigned short, int, libusb_device_handle** );
+		unsigned short, unsigned short, unsigned short, int,
+		libusb_device_handle** );
 
 #endif	/* INTERNALS_H */

@@ -45,14 +45,15 @@ unsigned
 oaTouptek_EnumV2 (
 		uint8_t brand, oaTouptekDeviceV2 deviceList[ OA_TOUPTEK_MAX ])
 {
-	return enumerate ( brand, deviceList, 0, 0, -1, NULL );
+	return enumerate ( brand, deviceList, 0, 0, 0, 0, -1, NULL );
 }
 
 
 unsigned
 enumerate ( uint8_t brand, oaTouptekDeviceV2 deviceList[ OA_TOUPTEK_MAX ],
-		unsigned short matchBus, unsigned short matchAddr, int index,
-		libusb_device_handle** phandle )
+		unsigned short matchBus, unsigned short matchAddr,
+		unsigned short matchVid, unsigned short matchPid, int index,
+		libusb_device_handle** pHandle )
 {
   libusb_context*									ctx = 0;
   libusb_device**									devlist;
@@ -100,54 +101,58 @@ enumerate ( uint8_t brand, oaTouptekDeviceV2 deviceList[ OA_TOUPTEK_MAX ],
 		// Skip any vendor IDs we know we're not going to care about
 		if ( desc.idVendor == VID_TOUPTEK || desc.idVendor == VID_OLD_ALTAIR ||
 				desc.idVendor == VID_ALT_MEADE ) {
-			// Now check against all the cameras we know about
-			for ( j = 0; j < MAX_CAMERAS && !stop; j++ ) {
-				if ( desc.idVendor == VID_TOUPTEK ||
-						( brand == OA_BRAND_ALTAIRCAM && cameras[j].matchOldAltair &&
-								desc.idVendor == VID_OLD_ALTAIR ) ||
-						( brand == OA_BRAND_MEADECAM && cameras[j].matchAltMeade &&
-								desc.idVendor == VID_ALT_MEADE )) {
-					// Vendor ID is of interest, now check the product ids
-					for ( k = 0; k < MAX_PRODUCT_IDS && cameras[j].productIds[k] && !stop;
-							k++ ) {
-						if ( desc.idProduct == cameras[j].productIds[k] ) {
-							// If the product Id matches then we're not going to check
-							// anything else
-							stop = 1;
-							// But there's not a definite match unless the camera name for
-							// the current brand or for OA_BRAND_TOUPCAM exists
-							nameToUse = -1;
-							if ( cameras[j].name[ brand ] ) {
-								nameToUse = brand;
-							} else {
-								if ( cameras[j].name[ OA_BRAND_TOUPCAM ]) {
-									nameToUse = OA_BRAND_TOUPCAM;
-								}
-							}
-							if ( nameToUse >= 0 ) {
-								// At this point we've definitely got something
-								busNum = libusb_get_bus_number ( device );
-								addr = libusb_get_device_address ( device );
-								if ( deviceList ) {
-									( void ) strncpy ( deviceList[ numFound ].displayname,
-											cameras[j].name[ nameToUse ], OA_STRING_MAX );
-									// Format for id "tp-<usb-bus-id>-<usb-device-id>-<vid>-<pid>"
-									// all numbers are in decimal
-									( void ) snprintf ( deviceList[ numFound ].id, OA_STRING_MAX,
-											"tp-%hu-%hu-%hu-%hu", busNum, addr, desc.idVendor,
-											desc.idProduct );
-								}
-								if ( matchBus && matchAddr ) {
-									if ( busNum == matchBus && addr == matchAddr ) {
-										returnHandle = 1;
+			if (( matchVid == 0 || matchVid == desc.idVendor ) &&
+					( matchPid == 0 || matchPid == desc.idProduct )) {
+				// Now check against all the cameras we know about
+				for ( j = 0; j < MAX_CAMERAS && !stop; j++ ) {
+					if ( desc.idVendor == VID_TOUPTEK ||
+							( brand == OA_BRAND_ALTAIRCAM && cameras[j].matchOldAltair &&
+									desc.idVendor == VID_OLD_ALTAIR ) ||
+							( brand == OA_BRAND_MEADECAM && cameras[j].matchAltMeade &&
+									desc.idVendor == VID_ALT_MEADE )) {
+						// Vendor ID is of interest, now check the product ids
+						for ( k = 0; k < MAX_PRODUCT_IDS && cameras[j].productIds[k] &&
+								!stop; k++ ) {
+							if ( desc.idProduct == cameras[j].productIds[k] ) {
+								// If the product Id matches then we're not going to check
+								// anything else
+								stop = 1;
+								// But there's not a definite match unless the camera name for
+								// the current brand or for OA_BRAND_TOUPCAM exists
+								nameToUse = -1;
+								if ( cameras[j].name[ brand ] ) {
+									nameToUse = brand;
+								} else {
+									if ( cameras[j].name[ OA_BRAND_TOUPCAM ]) {
+										nameToUse = OA_BRAND_TOUPCAM;
 									}
 								}
-								if ( index >= 0 && index == numFound ) {
-									returnHandle = 1;
+								if ( nameToUse >= 0 ) {
+									// At this point we've definitely got something
+									busNum = libusb_get_bus_number ( device );
+									addr = libusb_get_device_address ( device );
+									if ( deviceList ) {
+										( void ) strncpy ( deviceList[ numFound ].displayname,
+												cameras[j].name[ nameToUse ], OA_STRING_MAX );
+										// Format is "tp-<usb-bus-id>-<usb-device-id>-<vid>-<pid>"
+										// all numbers are in decimal
+										( void ) snprintf ( deviceList[ numFound ].id,
+												OA_STRING_MAX, "tp-%hu-%hu-%hu-%hu", busNum, addr,
+												desc.idVendor, desc.idProduct );
+									}
+									if ( matchBus && matchAddr ) {
+										if ( busNum == matchBus && addr == matchAddr ) {
+											returnHandle = 1;
+										}
+									}
+									if ( index >= 0 && index == numFound ) {
+										returnHandle = 1;
+									}
+									if ( returnHandle ) {
+										// FIX ME -- go on then, make a handle!
+									}
+									numFound++;
 								}
-								if ( returnHandle ) {
-								}
-								numFound++;
 							}
 						}
 					}
