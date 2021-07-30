@@ -64,3 +64,10 @@ Toupcam_get_HFlip ( TT_HANDLE handle, int* pHFlip )
 {
 	return getHFlip ( handle, pHFlip );
 }
+
+
+HRESULT
+Toupcam_get_VFlip ( TT_HANDLE handle, int* pVFlip )
+{
+	return getVFlip ( handle, pVFlip );
+}
