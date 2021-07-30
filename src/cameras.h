@@ -49,16 +49,17 @@ typedef struct cameraData {
 } cameraData;
 
 typedef struct cameraSettings {
-	int								contrast;
-	int								gamma;
-	int								flipState;
-	unsigned short		blackBalanceRed;
-	unsigned short		blackBalanceGreen;
-	unsigned short		blackBalanceBlue;
+	int												contrast;
+	int												gamma;
+	int												flipState;
+	unsigned short						blackBalanceRed;
+	unsigned short						blackBalanceGreen;
+	unsigned short						blackBalanceBlue;
 } cameraSettings;
 
 typedef struct cameraCtx {
-	cameraSettings*		settings;
+	libusb_device_handle*			handle;
+	cameraSettings*						settings;
 } cameraCtx;
 
 typedef struct cameraFuncs {
