@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- * mallincam.c -- List Mallincam cameras that are connected to the system
+ * mallincam.c -- Mallincam interface
  *
  * Copyright 2021
  *   James Fidell (james@openastroproject.org)
@@ -28,10 +28,46 @@
 #include <mallincam.h>
 
 #include "internals.h"
+#include "getSettings.h"
 
 
 unsigned
 Mallincam_EnumV2 ( oaTouptekDeviceV2 deviceList[ OA_TOUPTEK_MAX ])
 {
 	return oaTouptek_EnumV2 ( OA_BRAND_MALLINCAM, deviceList );
+}
+
+
+HRESULT
+Mallincam_get_BlackBalance ( TT_HANDLE handle, unsigned short bal[3] )
+{
+	return getBlackBalance ( handle, bal );
+}
+
+
+HRESULT
+Mallincam_get_Contrast ( TT_HANDLE handle, int* pContrast )
+{
+	return getContrast ( handle, pContrast );
+}
+
+
+HRESULT
+Mallincam_get_Gamma ( TT_HANDLE handle, int* pGamma )
+{
+	return getGamma ( handle, pGamma );
+}
+
+
+HRESULT
+Mallincam_get_HFlip ( TT_HANDLE handle, int* pHFlip )
+{
+	return getHFlip ( handle, pHFlip );
+}
+
+
+HRESULT
+Mallincam_get_VFlip ( TT_HANDLE handle, int* pVFlip )
+{
+	return getVFlip ( handle, pVFlip );
 }
