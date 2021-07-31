@@ -1,6 +1,6 @@
 /*****************************************************************************
  *
- * omegonprocam.c -- List Omegonprocam cameras that are connected to the system
+ * omegonprocam.c -- Omegonprocam interface
  *
  * Copyright 2021
  *   James Fidell (james@openastroproject.org)
@@ -28,10 +28,46 @@
 #include <omegonprocam.h>
 
 #include "internals.h"
+#include "getSettings.h"
 
 
 unsigned
 Omegonprocam_EnumV2 ( oaTouptekDeviceV2 deviceList[ OA_TOUPTEK_MAX ])
 {
 	return oaTouptek_EnumV2 ( OA_BRAND_OMEGONPROCAM, deviceList );
+}
+
+
+HRESULT
+Omegonprocam_get_BlackBalance ( TT_HANDLE handle, unsigned short bal[3] )
+{
+	return getBlackBalance ( handle, bal );
+}
+
+
+HRESULT
+Omegonprocam_get_Contrast ( TT_HANDLE handle, int* pContrast )
+{
+	return getContrast ( handle, pContrast );
+}
+
+
+HRESULT
+Omegonprocam_get_Gamma ( TT_HANDLE handle, int* pGamma )
+{
+	return getGamma ( handle, pGamma );
+}
+
+
+HRESULT
+Omegonprocam_get_HFlip ( TT_HANDLE handle, int* pHFlip )
+{
+	return getHFlip ( handle, pHFlip );
+}
+
+
+HRESULT
+Omegonprocam_get_VFlip ( TT_HANDLE handle, int* pVFlip )
+{
+	return getVFlip ( handle, pVFlip );
 }
