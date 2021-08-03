@@ -149,7 +149,7 @@ enumerate ( uint8_t brand, oaTouptekDeviceV2 deviceList[ OA_TOUPTEK_MAX ],
 										returnHandle = 1;
 									}
 									if ( returnHandle ) {
-										// FIX ME -- go on then, make a handle!
+										libusb_open ( device, pHandle );
 									}
 									numFound++;
 								}
