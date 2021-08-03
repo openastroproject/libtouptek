@@ -28,6 +28,7 @@
 #include <starshootg.h>
 
 #include "internals.h"
+#include "getSettings.h"
 
 
 unsigned
